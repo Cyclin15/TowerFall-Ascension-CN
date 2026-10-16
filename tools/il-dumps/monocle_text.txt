@@ -1,0 +1,54 @@
+=== Monocle.Text (base Monocle.GraphicsComponent) ===
+  FIELD Microsoft.Xna.Framework.Graphics.SpriteFont font
+  FIELD System.String text
+  FIELD Monocle.Text/HorizontalAlign horizontalOrigin
+  FIELD Monocle.Text/VerticalAlign verticalOrigin
+  FIELD Microsoft.Xna.Framework.Vector2 size
+  METHOD System.Void Monocle.Text::.ctor(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Monocle.Text/HorizontalAlign,Monocle.Text/VerticalAlign)
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: ldarg.3 
+    IL_0004: call Microsoft.Xna.Framework.Color Microsoft.Xna.Framework.Color::get_White()
+    IL_0009: ldarg.s horizontalAlign
+    IL_000b: ldarg.s verticalAlign
+    IL_000d: call System.Void Monocle.Text::.ctor(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,Monocle.Text/HorizontalAlign,Monocle.Text/VerticalAlign)
+    IL_0012: ret 
+
+  METHOD System.Void Monocle.Text::UpdateSize()
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.0 
+    IL_0002: ldfld Microsoft.Xna.Framework.Graphics.SpriteFont Monocle.Text::font
+    IL_0007: ldarg.0 
+    IL_0008: ldfld System.String Monocle.Text::text
+    IL_000d: callvirt Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::MeasureString(System.String)
+    IL_0012: stfld Microsoft.Xna.Framework.Vector2 Monocle.Text::size
+    IL_0017: ldarg.0 
+    IL_0018: call System.Void Monocle.Text::UpdateCentering()
+    IL_001d: ret 
+
+  METHOD System.Void Monocle.Text::Render()
+    IL_0000: call Microsoft.Xna.Framework.Graphics.SpriteBatch Monocle.Draw::get_SpriteBatch()
+    IL_0005: ldarg.0 
+    IL_0006: ldfld Microsoft.Xna.Framework.Graphics.SpriteFont Monocle.Text::font
+    IL_000b: ldarg.0 
+    IL_000c: ldfld System.String Monocle.Text::text
+    IL_0011: ldarg.0 
+    IL_0012: call Microsoft.Xna.Framework.Vector2 Monocle.GraphicsComponent::get_RenderPosition()
+    IL_0017: ldarg.0 
+    IL_0018: ldfld Microsoft.Xna.Framework.Color Monocle.GraphicsComponent::Color
+    IL_001d: ldarg.0 
+    IL_001e: ldfld System.Single Monocle.GraphicsComponent::Rotation
+    IL_0023: ldarg.0 
+    IL_0024: ldfld Microsoft.Xna.Framework.Vector2 Monocle.GraphicsComponent::Origin
+    IL_0029: ldarg.0 
+    IL_002a: ldfld Microsoft.Xna.Framework.Vector2 Monocle.GraphicsComponent::Scale
+    IL_002f: ldarg.0 
+    IL_0030: ldfld System.Single Monocle.GraphicsComponent::Zoom
+    IL_0035: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Vector2::op_Multiply(Microsoft.Xna.Framework.Vector2,System.Single)
+    IL_003a: ldarg.0 
+    IL_003b: ldfld Microsoft.Xna.Framework.Graphics.SpriteEffects Monocle.GraphicsComponent::Effects
+    IL_0040: ldc.r4 0
+    IL_0045: callvirt System.Void Microsoft.Xna.Framework.Graphics.SpriteBatch::DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)
+    IL_004a: ret 
+

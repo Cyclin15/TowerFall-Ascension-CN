@@ -1,0 +1,150 @@
+=== Microsoft.Xna.Framework.Graphics.SpriteFont ===
+  FIELD Microsoft.Xna.Framework.Graphics.Texture2D textureValue
+  FIELD System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle> glyphData
+  FIELD System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle> croppingData
+  FIELD System.Collections.Generic.List`1<System.Char> characterMap
+  FIELD System.Collections.Generic.List`1<Microsoft.Xna.Framework.Vector3> kerning
+  FIELD System.Int32 lineSpacing
+  FIELD System.Single spacing
+  FIELD System.Nullable`1<System.Char> defaultCharacter
+  FIELD System.Collections.ObjectModel.ReadOnlyCollection`1<System.Char> characters
+  PROP System.Int32 LineSpacing
+  PROP System.Single Spacing
+  PROP System.Nullable`1<System.Char> DefaultCharacter
+  PROP System.Collections.ObjectModel.ReadOnlyCollection`1<System.Char> Characters
+  METHOD System.Void Microsoft.Xna.Framework.Graphics.SpriteFont::.ctor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle>,System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle>,System.Collections.Generic.List`1<System.Char>,System.Int32,System.Single,System.Collections.Generic.List`1<Microsoft.Xna.Framework.Vector3>,System.Nullable`1<System.Char>)
+    IL_0000: ldarg.0 
+    IL_0001: call System.Void System.Object::.ctor()
+    IL_0006: ldarg.0 
+    IL_0007: ldarg.1 
+    IL_0008: stfld Microsoft.Xna.Framework.Graphics.Texture2D Microsoft.Xna.Framework.Graphics.SpriteFont::textureValue
+    IL_000d: ldarg.0 
+    IL_000e: ldarg.2 
+    IL_000f: stfld System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle> Microsoft.Xna.Framework.Graphics.SpriteFont::glyphData
+    IL_0014: ldarg.0 
+    IL_0015: ldarg.3 
+    IL_0016: stfld System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle> Microsoft.Xna.Framework.Graphics.SpriteFont::croppingData
+    IL_001b: ldarg.0 
+    IL_001c: ldarg.s charMap
+    IL_001e: stfld System.Collections.Generic.List`1<System.Char> Microsoft.Xna.Framework.Graphics.SpriteFont::characterMap
+    IL_0023: ldarg.0 
+    IL_0024: ldarg.s lineSpacing
+    IL_0026: stfld System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::lineSpacing
+    IL_002b: ldarg.0 
+    IL_002c: ldarg.s spacing
+    IL_002e: stfld System.Single Microsoft.Xna.Framework.Graphics.SpriteFont::spacing
+    IL_0033: ldarg.0 
+    IL_0034: ldarg.s kerning
+    IL_0036: stfld System.Collections.Generic.List`1<Microsoft.Xna.Framework.Vector3> Microsoft.Xna.Framework.Graphics.SpriteFont::kerning
+    IL_003b: ldarg.0 
+    IL_003c: ldarg.s defaultCharacter
+    IL_003e: stfld System.Nullable`1<System.Char> Microsoft.Xna.Framework.Graphics.SpriteFont::defaultCharacter
+    IL_0043: ret 
+  METHOD Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::MeasureString(System.String)
+    IL_0000: ldarg.1 
+    IL_0001: brtrue.s IL_000e: ldloca.s V_0
+    IL_0003: ldstr text
+    IL_0008: newobj System.Void System.ArgumentNullException::.ctor(System.String)
+    IL_000d: throw 
+    IL_000e: ldloca.s V_0
+    IL_0010: ldarg.1 
+    IL_0011: newobj System.Void Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy::.ctor(System.String)
+    IL_0016: stobj Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy
+    IL_001b: ldarg.0 
+    IL_001c: ldloca.s V_0
+    IL_001e: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::InternalMeasure(Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy&)
+    IL_0023: ret 
+  METHOD Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::MeasureString(System.Text.StringBuilder)
+    IL_0000: ldarg.1 
+    IL_0001: brtrue.s IL_000e: ldloca.s V_0
+    IL_0003: ldstr text
+    IL_0008: newobj System.Void System.ArgumentNullException::.ctor(System.String)
+    IL_000d: throw 
+    IL_000e: ldloca.s V_0
+    IL_0010: ldarg.1 
+    IL_0011: newobj System.Void Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy::.ctor(System.Text.StringBuilder)
+    IL_0016: stobj Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy
+    IL_001b: ldarg.0 
+    IL_001c: ldloca.s V_0
+    IL_001e: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::InternalMeasure(Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy&)
+    IL_0023: ret 
+  METHOD System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::GetIndexForCharacter(System.Char)
+    IL_0000: ldc.i4.0 
+    IL_0001: stloc.1 
+    IL_0002: ldarg.0 
+    IL_0003: ldfld System.Collections.Generic.List`1<System.Char> Microsoft.Xna.Framework.Graphics.SpriteFont::characterMap
+    IL_0008: callvirt System.Int32 System.Collections.Generic.List`1<System.Char>::get_Count()
+    IL_000d: ldc.i4.1 
+    IL_000e: sub 
+    IL_000f: stloc.3 
+    IL_0010: br.s IL_003e: ldloc.1
+    IL_0012: ldloc.1 
+    IL_0013: ldloc.3 
+    IL_0014: ldloc.1 
+    IL_0015: sub 
+    IL_0016: ldc.i4.1 
+    IL_0017: shr 
+    IL_0018: add 
+    IL_0019: stloc.0 
+    IL_001a: ldarg.0 
+    IL_001b: ldfld System.Collections.Generic.List`1<System.Char> Microsoft.Xna.Framework.Graphics.SpriteFont::characterMap
+    IL_0020: ldloc.0 
+    IL_0021: callvirt !0 System.Collections.Generic.List`1<System.Char>::get_Item(System.Int32)
+    IL_0026: stloc.s V_5
+    IL_0028: ldloc.s V_5
+    IL_002a: ldarg.1 
+    IL_002b: bne.un.s IL_002f: ldloc.s V_5
+    IL_002d: ldloc.0 
+    IL_002e: ret 
+    IL_002f: ldloc.s V_5
+    IL_0031: ldarg.1 
+    IL_0032: bge.s IL_003a: ldloc.0
+    IL_0034: ldloc.0 
+    IL_0035: ldc.i4.1 
+    IL_0036: add 
+    IL_0037: stloc.1 
+    IL_0038: br.s IL_003e: ldloc.1
+    IL_003a: ldloc.0 
+    IL_003b: ldc.i4.1 
+    IL_003c: sub 
+    IL_003d: stloc.3 
+    IL_003e: ldloc.1 
+    IL_003f: ldloc.3 
+    IL_0040: ble.s IL_0012: ldloc.1
+    IL_0042: ldarg.0 
+    IL_0043: ldflda System.Nullable`1<System.Char> Microsoft.Xna.Framework.Graphics.SpriteFont::defaultCharacter
+    IL_0048: call System.Boolean System.Nullable`1<System.Char>::get_HasValue()
+    IL_004d: brfalse.s IL_006a: call System.Globalization.CultureInfo System.Globalization.CultureInfo::get_CurrentCulture()
+    IL_004f: ldarg.0 
+    IL_0050: ldflda System.Nullable`1<System.Char> Microsoft.Xna.Framework.Graphics.SpriteFont::defaultCharacter
+    IL_0055: call !0 System.Nullable`1<System.Char>::get_Value()
+    IL_005a: stloc.s V_4
+    IL_005c: ldarg.1 
+    IL_005d: ldloc.s V_4
+    IL_005f: beq.s IL_006a: call System.Globalization.CultureInfo System.Globalization.CultureInfo::get_CurrentCulture()
+    IL_0061: ldarg.0 
+    IL_0062: ldloc.s V_4
+    IL_0064: call System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::GetIndexForCharacter(System.Char)
+    IL_0069: ret 
+    IL_006a: call System.Globalization.CultureInfo System.Globalization.CultureInfo::get_CurrentCulture()
+    IL_006f: call System.String Microsoft.Xna.Framework.FrameworkResources::get_CharacterNotInFont()
+    IL_0074: ldc.i4.2 
+    IL_0075: newarr System.Object
+    IL_007a: stloc.2 
+    IL_007b: ldloc.2 
+    IL_007c: ldc.i4.0 
+    IL_007d: ldarg.1 
+    IL_007e: box System.Char
+    IL_0083: stelem.ref 
+    IL_0084: ldloc.2 
+    IL_0085: ldc.i4.1 
+    IL_0086: ldarg.1 
+    IL_0087: box System.Int32
+    IL_008c: stelem.ref 
+    IL_008d: ldloc.2 
+    IL_008e: call System.String System.String::Format(System.IFormatProvider,System.String,System.Object[])
+    IL_0093: stloc.s V_6
+    IL_0095: ldloc.s V_6
+    IL_0097: ldstr character
+    IL_009c: newobj System.Void System.ArgumentException::.ctor(System.String,System.String)
+    IL_00a1: throw 

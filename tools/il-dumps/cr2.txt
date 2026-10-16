@@ -1,0 +1,182 @@
+=== TYPE Microsoft.Xna.Framework.Content.ListReader`1 (base Microsoft.Xna.Framework.Content.ContentTypeReader`1<System.Collections.Generic.List`1<T>>) ===
+  METHOD System.Collections.Generic.List`1<T> Microsoft.Xna.Framework.Content.ListReader`1::Read(Microsoft.Xna.Framework.Content.ContentReader,System.Collections.Generic.List`1<T>)
+    IL_0000: ldarg.1 
+    IL_0001: callvirt System.Int32 System.IO.BinaryReader::ReadInt32()
+    IL_0006: stloc.1 
+    IL_0007: ldarg.2 
+    IL_0008: stloc.0 
+    IL_0009: ldloc.0 
+    IL_000a: brtrue.s IL_0026: ldloc.1
+    IL_000c: newobj System.Void System.Collections.Generic.List`1<T>::.ctor()
+    IL_0011: stloc.0 
+    IL_0012: br.s IL_0026: ldloc.1
+    IL_0014: ldloc.0 
+    IL_0015: ldarg.1 
+    IL_0016: ldarg.0 
+    IL_0017: ldfld Microsoft.Xna.Framework.Content.ContentTypeReader Microsoft.Xna.Framework.Content.ListReader`1<T>::elementReader
+    IL_001c: callvirt T Microsoft.Xna.Framework.Content.ContentReader::ReadObject<T>(Microsoft.Xna.Framework.Content.ContentTypeReader)
+    IL_0021: callvirt System.Void System.Collections.Generic.List`1<T>::Add(!0)
+    IL_0026: ldloc.1 
+    IL_0027: dup 
+    IL_0028: ldc.i4.1 
+    IL_0029: sub 
+    IL_002a: stloc.1 
+    IL_002b: ldc.i4.0 
+    IL_002c: bgt.s IL_0014: ldloc.0
+    IL_002e: ldloc.0 
+    IL_002f: ret 
+  METHOD System.Void Microsoft.Xna.Framework.Content.ListReader`1::.ctor()
+    IL_0000: ldarg.0 
+    IL_0001: call System.Void Microsoft.Xna.Framework.Content.ContentTypeReader`1<System.Collections.Generic.List`1<T>>::.ctor()
+    IL_0006: ret 
+=== TYPE Microsoft.Xna.Framework.Content.Vector3Reader (base Microsoft.Xna.Framework.Content.ContentTypeReader`1<Microsoft.Xna.Framework.Vector3>) ===
+  METHOD Microsoft.Xna.Framework.Vector3 Microsoft.Xna.Framework.Content.Vector3Reader::Read(Microsoft.Xna.Framework.Content.ContentReader,Microsoft.Xna.Framework.Vector3)
+    IL_0000: ldarg.1 
+    IL_0001: callvirt Microsoft.Xna.Framework.Vector3 Microsoft.Xna.Framework.Content.ContentReader::ReadVector3()
+    IL_0006: ret 
+=== TYPE Microsoft.Xna.Framework.Content.RectangleReader (base Microsoft.Xna.Framework.Content.ContentTypeReader`1<Microsoft.Xna.Framework.Rectangle>) ===
+  METHOD Microsoft.Xna.Framework.Rectangle Microsoft.Xna.Framework.Content.RectangleReader::Read(Microsoft.Xna.Framework.Content.ContentReader,Microsoft.Xna.Framework.Rectangle)
+    IL_0000: ldloca.s V_0
+    IL_0002: ldarg.1 
+    IL_0003: callvirt System.Int32 System.IO.BinaryReader::ReadInt32()
+    IL_0008: stfld System.Int32 Microsoft.Xna.Framework.Rectangle::X
+    IL_000d: ldloca.s V_0
+    IL_000f: ldarg.1 
+    IL_0010: callvirt System.Int32 System.IO.BinaryReader::ReadInt32()
+    IL_0015: stfld System.Int32 Microsoft.Xna.Framework.Rectangle::Y
+    IL_001a: ldloca.s V_0
+    IL_001c: ldarg.1 
+    IL_001d: callvirt System.Int32 System.IO.BinaryReader::ReadInt32()
+    IL_0022: stfld System.Int32 Microsoft.Xna.Framework.Rectangle::Width
+    IL_0027: ldloca.s V_0
+    IL_0029: ldarg.1 
+    IL_002a: callvirt System.Int32 System.IO.BinaryReader::ReadInt32()
+    IL_002f: stfld System.Int32 Microsoft.Xna.Framework.Rectangle::Height
+    IL_0034: ldloc.0 
+    IL_0035: ret 
+=== TYPE Microsoft.Xna.Framework.Content.StringReader (base Microsoft.Xna.Framework.Content.ContentTypeReader`1<System.String>) ===
+  METHOD System.String Microsoft.Xna.Framework.Content.StringReader::Read(Microsoft.Xna.Framework.Content.ContentReader,System.String)
+    IL_0000: ldarg.1 
+    IL_0001: callvirt System.String System.IO.BinaryReader::ReadString()
+    IL_0006: ret 
+=== TYPE Microsoft.Xna.Framework.Content.CharReader (base Microsoft.Xna.Framework.Content.ContentTypeReader`1<System.Char>) ===
+  METHOD System.Char Microsoft.Xna.Framework.Content.CharReader::Read(Microsoft.Xna.Framework.Content.ContentReader,System.Char)
+    IL_0000: ldarg.1 
+    IL_0001: callvirt System.Char System.IO.BinaryReader::ReadChar()
+    IL_0006: ret 
+=== TYPE Microsoft.Xna.Framework.Content.ContentReader (base System.IO.BinaryReader) ===
+  METHOD System.Void Microsoft.Xna.Framework.Content.ContentReader::.ctor(Microsoft.Xna.Framework.Content.ContentManager,System.IO.Stream,System.String,System.Action`1<System.IDisposable>,System.Int32)
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.2 
+    IL_0002: call System.Void System.IO.BinaryReader::.ctor(System.IO.Stream)
+    IL_0007: ldarg.0 
+    IL_0008: ldarg.1 
+    IL_0009: stfld Microsoft.Xna.Framework.Content.ContentManager Microsoft.Xna.Framework.Content.ContentReader::contentManager
+    IL_000e: ldarg.0 
+    IL_000f: ldarg.3 
+    IL_0010: stfld System.String Microsoft.Xna.Framework.Content.ContentReader::assetName
+    IL_0015: ldarg.0 
+    IL_0016: ldarg.s recordDisposableObject
+    IL_0018: stfld System.Action`1<System.IDisposable> Microsoft.Xna.Framework.Content.ContentReader::recordDisposableObject
+    IL_001d: ldarg.0 
+    IL_001e: ldarg.s graphicsProfile
+    IL_0020: stfld System.Int32 Microsoft.Xna.Framework.Content.ContentReader::graphicsProfile
+    IL_0025: ret 
+  METHOD T Microsoft.Xna.Framework.Content.ContentReader::ReadAsset()
+    IL_0000: ldarg.0 
+    IL_0001: call System.Int32 Microsoft.Xna.Framework.Content.ContentReader::ReadHeader()
+    IL_0006: stloc.3 
+    IL_0007: ldarg.0 
+    IL_0008: call T Microsoft.Xna.Framework.Content.ContentReader::ReadObject<T>()
+    IL_000d: stloc.2 
+    IL_000e: ldarg.0 
+    IL_000f: ldloc.3 
+    IL_0010: call System.Void Microsoft.Xna.Framework.Content.ContentReader::ReadSharedResources(System.Int32)
+    IL_0015: ldloc.2 
+    IL_0016: stloc.1 
+    IL_0017: leave.s IL_002f: ldloc.1
+    IL_0019: stloc.0 
+    IL_001a: ldarg.0 
+    IL_001b: ldloc.0 
+    IL_001c: call System.String Microsoft.Xna.Framework.FrameworkResources::get_BadXnb()
+    IL_0021: ldc.i4.0 
+    IL_0022: newarr System.Object
+    IL_0027: call Microsoft.Xna.Framework.Content.ContentLoadException Microsoft.Xna.Framework.Content.ContentReader::CreateContentLoadException(System.Exception,System.String,System.Object[])
+    IL_002c: throw 
+    IL_002d: leave.s IL_002f: ldloc.1
+    IL_002f: ldloc.1 
+    IL_0030: ret 
+  METHOD T Microsoft.Xna.Framework.Content.ContentReader::ReadObject()
+    IL_0000: ldarg.0 
+    IL_0001: ldnull 
+    IL_0002: call T Microsoft.Xna.Framework.Content.ContentReader::ReadObjectInternal<T>(System.Object)
+    IL_0007: ret 
+  METHOD T Microsoft.Xna.Framework.Content.ContentReader::ReadObject(T)
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: box T
+    IL_0007: call T Microsoft.Xna.Framework.Content.ContentReader::ReadObjectInternal<T>(System.Object)
+    IL_000c: ret 
+  METHOD T Microsoft.Xna.Framework.Content.ContentReader::ReadObject(Microsoft.Xna.Framework.Content.ContentTypeReader)
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldnull 
+    IL_0003: call T Microsoft.Xna.Framework.Content.ContentReader::ReadObjectInternal<T>(Microsoft.Xna.Framework.Content.ContentTypeReader,System.Object)
+    IL_0008: ret 
+  METHOD T Microsoft.Xna.Framework.Content.ContentReader::ReadObject(Microsoft.Xna.Framework.Content.ContentTypeReader,T)
+    IL_0000: ldarg.0 
+    IL_0001: ldarg.1 
+    IL_0002: ldarg.2 
+    IL_0003: box T
+    IL_0008: call T Microsoft.Xna.Framework.Content.ContentReader::ReadObjectInternal<T>(Microsoft.Xna.Framework.Content.ContentTypeReader,System.Object)
+    IL_000d: ret 
+  METHOD System.Void Microsoft.Xna.Framework.Content.ContentReader::ReadSharedResource(System.Action`1<T>)
+    IL_0000: newobj System.Void Microsoft.Xna.Framework.Content.ContentReader/<>c__DisplayClass1`1<T>::.ctor()
+    IL_0005: stloc.1 
+    IL_0006: ldloc.1 
+    IL_0007: ldarg.1 
+    IL_0008: stfld System.Action`1<T> Microsoft.Xna.Framework.Content.ContentReader/<>c__DisplayClass1`1<T>::fixup
+    IL_000d: ldloc.1 
+    IL_000e: ldarg.0 
+    IL_000f: stfld Microsoft.Xna.Framework.Content.ContentReader Microsoft.Xna.Framework.Content.ContentReader/<>c__DisplayClass1`1<T>::<>4__this
+    IL_0014: ldloc.1 
+    IL_0015: ldfld System.Action`1<T> Microsoft.Xna.Framework.Content.ContentReader/<>c__DisplayClass1`1<T>::fixup
+    IL_001a: brtrue.s IL_0027: ldarg.0
+    IL_001c: ldstr fixup
+    IL_0021: newobj System.Void System.ArgumentNullException::.ctor(System.String)
+    IL_0026: throw 
+    IL_0027: ldarg.0 
+    IL_0028: call System.Int32 System.IO.BinaryReader::Read7BitEncodedInt()
+    IL_002d: stloc.0 
+    IL_002e: ldloc.0 
+    IL_002f: brtrue.s IL_0032: ldloc.0
+    IL_0031: ret 
+    IL_0032: ldloc.0 
+    IL_0033: ldc.i4.1 
+    IL_0034: sub 
+    IL_0035: stloc.0 
+    IL_0036: ldloc.0 
+    IL_0037: conv.u8 
+    IL_0038: ldarg.0 
+    IL_0039: ldfld System.Collections.Generic.List`1<System.Action`1<System.Object>>[] Microsoft.Xna.Framework.Content.ContentReader::sharedResourceFixups
+    IL_003e: ldlen 
+    IL_003f: conv.i4 
+    IL_0040: conv.i8 
+    IL_0041: blt.s IL_0055: ldarg.0
+    IL_0043: ldarg.0 
+    IL_0044: call System.String Microsoft.Xna.Framework.FrameworkResources::get_BadXnb()
+    IL_0049: ldc.i4.0 
+    IL_004a: newarr System.Object
+    IL_004f: call Microsoft.Xna.Framework.Content.ContentLoadException Microsoft.Xna.Framework.Content.ContentReader::CreateContentLoadException(System.String,System.Object[])
+    IL_0054: throw 
+    IL_0055: ldarg.0 
+    IL_0056: ldfld System.Collections.Generic.List`1<System.Action`1<System.Object>>[] Microsoft.Xna.Framework.Content.ContentReader::sharedResourceFixups
+    IL_005b: ldloc.0 
+    IL_005c: ldelem.ref 
+    IL_005d: stloc.2 
+    IL_005e: ldloc.2 
+    IL_005f: ldloc.1 
+    IL_0060: ldftn System.Void Microsoft.Xna.Framework.Content.ContentReader/<>c__DisplayClass1`1<T>::<ReadSharedResource>b__0(System.Object)
+    IL_0066: newobj System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+    IL_006b: callvirt System.Void System.Collections.Generic.List`1<System.Action`1<System.Object>>::Add(!0)
+    IL_0070: ret 

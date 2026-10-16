@@ -1,0 +1,271 @@
+IL_0000: ldarg.s rotation
+IL_0002: ldloca.s V_12
+IL_0004: call System.Void Microsoft.Xna.Framework.Matrix::CreateRotationZ(System.Single,Microsoft.Xna.Framework.Matrix&)
+IL_0009: ldarga.s origin
+IL_000b: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0010: neg 
+IL_0011: ldarg.s scale
+IL_0013: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0018: mul 
+IL_0019: ldarga.s origin
+IL_001b: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0020: neg 
+IL_0021: ldarg.s scale
+IL_0023: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0028: mul 
+IL_0029: ldc.r4 0
+IL_002e: ldloca.s V_11
+IL_0030: call System.Void Microsoft.Xna.Framework.Matrix::CreateTranslation(System.Single,System.Single,System.Single,Microsoft.Xna.Framework.Matrix&)
+IL_0035: ldloca.s V_11
+IL_0037: ldloca.s V_12
+IL_0039: ldloca.s V_12
+IL_003b: call System.Void Microsoft.Xna.Framework.Matrix::Multiply(Microsoft.Xna.Framework.Matrix&,Microsoft.Xna.Framework.Matrix&,Microsoft.Xna.Framework.Matrix&)
+IL_0040: ldc.i4.1 
+IL_0041: stloc.1 
+IL_0042: ldc.r4 0
+IL_0047: stloc.s V_6
+IL_0049: ldloca.s V_8
+IL_004b: initobj Microsoft.Xna.Framework.Vector2
+IL_0051: ldc.i4.1 
+IL_0052: stloc.s V_5
+IL_0054: ldarg.s spriteEffects
+IL_0056: ldc.i4.1 
+IL_0057: and 
+IL_0058: ldc.i4.1 
+IL_0059: bne.un.s IL_0073: ldarg.s spriteEffects
+IL_005b: ldarg.0 
+IL_005c: ldarg.1 
+IL_005d: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::InternalMeasure(Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy&)
+IL_0062: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0067: ldarg.s scale
+IL_0069: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_006e: mul 
+IL_006f: stloc.s V_6
+IL_0071: ldc.i4.m1 
+IL_0072: stloc.1 
+IL_0073: ldarg.s spriteEffects
+IL_0075: ldc.i4.2 
+IL_0076: and 
+IL_0077: ldc.i4.2 
+IL_0078: bne.un.s IL_009f: ldloca.s V_8
+IL_007a: ldloca.s V_8
+IL_007c: ldarg.0 
+IL_007d: ldarg.1 
+IL_007e: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Graphics.SpriteFont::InternalMeasure(Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy&)
+IL_0083: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0088: ldarg.0 
+IL_0089: ldfld System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::lineSpacing
+IL_008e: conv.r4 
+IL_008f: sub 
+IL_0090: ldarg.s scale
+IL_0092: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0097: mul 
+IL_0098: stfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_009d: br.s IL_00ab: ldloca.s V_8
+IL_009f: ldloca.s V_8
+IL_00a1: ldc.r4 0
+IL_00a6: stfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_00ab: ldloca.s V_8
+IL_00ad: ldloc.s V_6
+IL_00af: stfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_00b4: ldc.i4.0 
+IL_00b5: stloc.0 
+IL_00b6: br IL_02a4: ldloc.0
+IL_00bb: ldarg.1 
+IL_00bc: ldloc.0 
+IL_00bd: call System.Char Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy::get_Item(System.Int32)
+IL_00c2: stloc.s V_4
+IL_00c4: ldloc.s V_4
+IL_00c6: ldc.i4.s 13
+IL_00c8: beq IL_02a0: ldloc.0
+IL_00cd: ldloc.s V_4
+IL_00cf: ldc.i4.s 10
+IL_00d1: bne.un.s IL_012a: ldarg.0
+IL_00d3: ldc.i4.1 
+IL_00d4: stloc.s V_5
+IL_00d6: ldloca.s V_8
+IL_00d8: ldloc.s V_6
+IL_00da: stfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_00df: ldarg.s spriteEffects
+IL_00e1: ldc.i4.2 
+IL_00e2: and 
+IL_00e3: ldc.i4.2 
+IL_00e4: bne.un.s IL_0108: ldloca.s V_8
+IL_00e6: ldloca.s V_8
+IL_00e8: dup 
+IL_00e9: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_00ee: ldarg.0 
+IL_00ef: ldfld System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::lineSpacing
+IL_00f4: conv.r4 
+IL_00f5: ldarg.s scale
+IL_00f7: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_00fc: mul 
+IL_00fd: sub 
+IL_00fe: stfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0103: br IL_02a0: ldloc.0
+IL_0108: ldloca.s V_8
+IL_010a: dup 
+IL_010b: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0110: ldarg.0 
+IL_0111: ldfld System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::lineSpacing
+IL_0116: conv.r4 
+IL_0117: ldarg.s scale
+IL_0119: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_011e: mul 
+IL_011f: add 
+IL_0120: stfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0125: br IL_02a0: ldloc.0
+IL_012a: ldarg.0 
+IL_012b: ldloc.s V_4
+IL_012d: call System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::GetIndexForCharacter(System.Char)
+IL_0132: stloc.3 
+IL_0133: ldarg.0 
+IL_0134: ldfld System.Collections.Generic.List`1<Microsoft.Xna.Framework.Vector3> Microsoft.Xna.Framework.Graphics.SpriteFont::kerning
+IL_0139: ldloc.3 
+IL_013a: callvirt !0 System.Collections.Generic.List`1<Microsoft.Xna.Framework.Vector3>::get_Item(System.Int32)
+IL_013f: stloc.s V_10
+IL_0141: ldloc.s V_5
+IL_0143: brfalse.s IL_015f: ldloca.s V_8
+IL_0145: ldloca.s V_10
+IL_0147: ldloca.s V_10
+IL_0149: ldfld System.Single Microsoft.Xna.Framework.Vector3::X
+IL_014e: ldc.r4 0
+IL_0153: call System.Single System.Math::Max(System.Single,System.Single)
+IL_0158: stfld System.Single Microsoft.Xna.Framework.Vector3::X
+IL_015d: br.s IL_017e: ldloca.s V_8
+IL_015f: ldloca.s V_8
+IL_0161: dup 
+IL_0162: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0167: ldarg.0 
+IL_0168: ldfld System.Single Microsoft.Xna.Framework.Graphics.SpriteFont::spacing
+IL_016d: ldarg.s scale
+IL_016f: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0174: mul 
+IL_0175: ldloc.1 
+IL_0176: conv.r4 
+IL_0177: mul 
+IL_0178: add 
+IL_0179: stfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_017e: ldloca.s V_8
+IL_0180: dup 
+IL_0181: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0186: ldloca.s V_10
+IL_0188: ldfld System.Single Microsoft.Xna.Framework.Vector3::X
+IL_018d: ldarg.s scale
+IL_018f: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0194: mul 
+IL_0195: ldloc.1 
+IL_0196: conv.r4 
+IL_0197: mul 
+IL_0198: add 
+IL_0199: stfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_019e: ldarg.0 
+IL_019f: ldfld System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle> Microsoft.Xna.Framework.Graphics.SpriteFont::glyphData
+IL_01a4: ldloc.3 
+IL_01a5: callvirt !0 System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle>::get_Item(System.Int32)
+IL_01aa: stloc.s V_7
+IL_01ac: ldarg.0 
+IL_01ad: ldfld System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle> Microsoft.Xna.Framework.Graphics.SpriteFont::croppingData
+IL_01b2: ldloc.3 
+IL_01b3: callvirt !0 System.Collections.Generic.List`1<Microsoft.Xna.Framework.Rectangle>::get_Item(System.Int32)
+IL_01b8: stloc.s V_9
+IL_01ba: ldarg.s spriteEffects
+IL_01bc: ldc.i4.2 
+IL_01bd: and 
+IL_01be: ldc.i4.2 
+IL_01bf: bne.un.s IL_01de: ldarg.s spriteEffects
+IL_01c1: ldloca.s V_9
+IL_01c3: ldarg.0 
+IL_01c4: ldfld System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont::lineSpacing
+IL_01c9: ldloca.s V_7
+IL_01cb: ldfld System.Int32 Microsoft.Xna.Framework.Rectangle::Height
+IL_01d0: sub 
+IL_01d1: ldloca.s V_9
+IL_01d3: ldfld System.Int32 Microsoft.Xna.Framework.Rectangle::Y
+IL_01d8: sub 
+IL_01d9: stfld System.Int32 Microsoft.Xna.Framework.Rectangle::Y
+IL_01de: ldarg.s spriteEffects
+IL_01e0: ldc.i4.1 
+IL_01e1: and 
+IL_01e2: ldc.i4.1 
+IL_01e3: bne.un.s IL_01fb: ldloc.s V_8
+IL_01e5: ldloca.s V_9
+IL_01e7: ldloca.s V_9
+IL_01e9: ldfld System.Int32 Microsoft.Xna.Framework.Rectangle::X
+IL_01ee: ldloca.s V_9
+IL_01f0: ldfld System.Int32 Microsoft.Xna.Framework.Rectangle::Width
+IL_01f5: sub 
+IL_01f6: stfld System.Int32 Microsoft.Xna.Framework.Rectangle::X
+IL_01fb: ldloc.s V_8
+IL_01fd: stloc.2 
+IL_01fe: ldloca.s V_2
+IL_0200: dup 
+IL_0201: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0206: ldloca.s V_9
+IL_0208: ldfld System.Int32 Microsoft.Xna.Framework.Rectangle::X
+IL_020d: conv.r4 
+IL_020e: ldarg.s scale
+IL_0210: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0215: mul 
+IL_0216: add 
+IL_0217: stfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_021c: ldloca.s V_2
+IL_021e: dup 
+IL_021f: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0224: ldloca.s V_9
+IL_0226: ldfld System.Int32 Microsoft.Xna.Framework.Rectangle::Y
+IL_022b: conv.r4 
+IL_022c: ldarg.s scale
+IL_022e: ldfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_0233: mul 
+IL_0234: add 
+IL_0235: stfld System.Single Microsoft.Xna.Framework.Vector2::Y
+IL_023a: ldloca.s V_2
+IL_023c: ldloca.s V_12
+IL_023e: ldloca.s V_2
+IL_0240: call System.Void Microsoft.Xna.Framework.Vector2::Transform(Microsoft.Xna.Framework.Vector2&,Microsoft.Xna.Framework.Matrix&,Microsoft.Xna.Framework.Vector2&)
+IL_0245: ldloc.2 
+IL_0246: ldarg.3 
+IL_0247: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Vector2::op_Addition(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2)
+IL_024c: stloc.2 
+IL_024d: ldarg.2 
+IL_024e: ldarg.0 
+IL_024f: ldfld Microsoft.Xna.Framework.Graphics.Texture2D Microsoft.Xna.Framework.Graphics.SpriteFont::textureValue
+IL_0254: ldloc.2 
+IL_0255: ldloc.s V_7
+IL_0257: newobj System.Void System.Nullable`1<Microsoft.Xna.Framework.Rectangle>::.ctor(!0)
+IL_025c: ldarg.s color
+IL_025e: ldarg.s rotation
+IL_0260: call Microsoft.Xna.Framework.Vector2 Microsoft.Xna.Framework.Vector2::get_Zero()
+IL_0265: ldarg.s scale
+IL_0267: ldobj Microsoft.Xna.Framework.Vector2
+IL_026c: ldarg.s spriteEffects
+IL_026e: ldarg.s depth
+IL_0270: callvirt System.Void Microsoft.Xna.Framework.Graphics.SpriteBatch::Draw(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,System.Nullable`1<Microsoft.Xna.Framework.Rectangle>,Microsoft.Xna.Framework.Color,System.Single,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Graphics.SpriteEffects,System.Single)
+IL_0275: ldc.i4.0 
+IL_0276: stloc.s V_5
+IL_0278: ldloca.s V_8
+IL_027a: dup 
+IL_027b: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0280: ldloca.s V_10
+IL_0282: ldfld System.Single Microsoft.Xna.Framework.Vector3::Y
+IL_0287: ldloca.s V_10
+IL_0289: ldfld System.Single Microsoft.Xna.Framework.Vector3::Z
+IL_028e: add 
+IL_028f: ldarg.s scale
+IL_0291: ldfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_0296: mul 
+IL_0297: ldloc.1 
+IL_0298: conv.r4 
+IL_0299: mul 
+IL_029a: add 
+IL_029b: stfld System.Single Microsoft.Xna.Framework.Vector2::X
+IL_02a0: ldloc.0 
+IL_02a1: ldc.i4.1 
+IL_02a2: add 
+IL_02a3: stloc.0 
+IL_02a4: ldloc.0 
+IL_02a5: ldarg.1 
+IL_02a6: ldfld System.Int32 Microsoft.Xna.Framework.Graphics.SpriteFont/StringProxy::Length
+IL_02ab: blt IL_00bb: ldarg.1
+IL_02b0: ret 

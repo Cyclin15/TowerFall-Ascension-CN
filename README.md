@@ -52,18 +52,39 @@ Content\Atlas\GameData\versusTips.xml
 - SpriteFont 字符表以 UTF-8 变长编码存储（`BinaryReader.ReadChar`），因此 CJK 字符可直接存入；
 - `GetIndexForCharacter` 为二分查找，字符表必须按码点升序，缺字时回退 `defaultCharacter`，否则抛 `ArgumentException`——这正是汉化前三个原版字体不含中文字形时游戏启动即崩溃的原因。
 
-| 文件 | 用途 |
+| 文件 / 目录 | 用途 |
 | --- | --- |
 | `translations.py` | 翻译表：401 条 exe 字符串 + 31 条 XML 提示 |
 | `patch_exe.py` | 原位替换 exe 的 .NET #US 字符串堆（新串 UTF-16 长度 ≤ 原槽位，IL 与元数据逐字节不变） |
 | `patch_xml.py` | 汉化 questTips.xml / versusTips.xml（保留 BOM） |
-| `parse_xnb3.py` | XNB v5 SpriteFont 独立解析器 |
+| `parse_xnb.py` / `parse_xnb2.py` / `parse_xnb3.py` | XNB v5 SpriteFont 解析器的迭代版本（`parse_xnb3.py` 为最终正确版） |
 | `make_font.py` | 字体生成器：解析原版字体 → 用 SimHei 渲染中文字形 → shelf 打包图集 → 按实证格式写出新 XNB；ASCII 字形像素级保留 |
 | `validate_font.py` | 独立重解析校验 + 模拟 XNA 绘制预览 |
 | `verify2.py` | 像素级校验：ASCII 与原版一致、CJK 字形有墨、全部翻译可渲染 |
 | `fonttest/FontTest.cs` | 用真 XNA（GAC 官方程序集）实际加载生成的 XNB 并 MeasureString 验证 |
+| `il-analysis/` | 逆向 TowerFall.exe 与 GAC XNA 程序集用的 Mono.Cecil IL 分析脚本（dump*/listtypes/listrefs/findfont/finalcheck2 等，逐步迭代） |
+| `il-dumps/` | 逆向过程中导出的 IL 文本（SpriteFont 全部方法、ContentReader 体系、Monocle.Text、TFGame::LoadContent 等，XNB 格式结论的原始依据） |
+| `notes/` | 候选翻译字符串清单与 exe 全量字符串导出（`strings_dump.jsonl`） |
+| `Mono.Cecil.dll` | 编译 `il-analysis/` 脚本所需（Mono.Cecil 0.11.5 net40，Apache-2.0） |
 
 脚本内的游戏目录、备份目录等路径为硬编码（`D:\Steam\...`），复用时需自行修改。
+
+### C# 工具的编译方法
+
+`il-analysis/` 与 `fonttest/` 用 .NET Framework 自带 `csc` 编译（x86，因 GAC XNA 为 32 位）：
+
+```
+csc -nologo -platform:x86 -r:Mono.Cecil.dll il-analysis\findfont.cs
+```
+
+`FontTest.cs` 还需引用 GAC 里的官方 XNA 程序集，且运行目录放一个 `FontTest.exe.config`（内容：`<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup>` 加 `useLegacyV2RuntimeActivationPolicy="true"`）：
+
+```
+csc -nologo -platform:x86 ^
+  -r:C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll ^
+  -r:C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Graphics\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Graphics.dll ^
+  -r:System.Windows.Forms.dll fonttest\FontTest.cs
+```
 
 ## 声明
 

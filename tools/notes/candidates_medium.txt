@@ -1,0 +1,428 @@
+!
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+"
+    << Monocle.Commands::HandleKey
+#
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+### ### ### ###
+    << TowerFall.ArchivesGlobalStatsPage::GetHugeNumber
+$
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+%
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey | TowerFall.TreasureSpawner::LogSpawnRates
+&
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+'
+    << Monocle.Commands::HandleKey
+' not recognized for auto-detect!
+    << Monocle.SpriteData::GetAutoDetect
+'Custom BG Tileset Autotile Data' filesize too large!
+    << TowerFall.Editor.CustomTilesetData::.ctor
+'Custom Tileset Autotile Data' filesize too large!
+    << TowerFall.Editor.CustomTilesetData::.ctor
+'Default Custom BG Tileset' filesize too large!
+    << TowerFall.Editor.CustomTilesetData::.ctor
+'Default Custom Background' filesize too large!
+    << TowerFall.Editor.CustomBackgroundData::.ctor
+'Default Custom Music' filesize too large!
+    << TowerFall.Editor.CustomMusicData::.ctor
+'Default Custom Tileset' filesize too large!
+    << TowerFall.Editor.CustomTilesetData::.ctor
+(
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+)
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey | TowerFall.PauseMenu::.ctor
+*
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
++
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey | TowerFall.VersusRoundResults/<Sequence>d__25::MoveNext
++2
+    << TowerFall.Arrow::.cctor
+,
+    << Monocle.AutotileData::Export | Monocle.Calc::IntGridToCSV | Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey
+, 
+    << Monocle.Camera::ToString | Monocle.Commands::<.ctor>b__23_8 | Monocle.Sprite`1/SpriteAnimation::ToString
+-
+    << Monocle.Commands::HandleKey | TowerFall.ArchivesSessionPage::.ctor | TowerFall.AwardInfo::get_DataName | TowerFall.Editor.OverlayTextBox::HandleKey
+---
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.TrialsTimes/<Sequence>d__5::MoveNext
+----------------------------------------------
+    << TowerFall.TFGame::StartLoadLog
+-loadlog
+    << TowerFall.TFGame::Main
+-nogamepads
+    << TowerFall.TFGame::Main
+-nogamepadupdates
+    << TowerFall.TFGame::Main
+-nointro
+    << TowerFall.TFGame::Main
+-noquit
+    << TowerFall.TFGame::Main
+0
+    << Monocle.Calc::ToString | Monocle.Commands::HandleKey | Monocle.Commands::ParseBool | Monocle.Grid::GetBitstring
+0000000000000000011111000011111001111000000111100111100000011110011111000011111001001110011100100000011111100000000000111100000000000011110000000000011111100000000111100111100000111100001111000111110000111110000110000001100000010000000010000000000000000000
+    << TowerFall.Editor.IconData::.ctor
+040205
+    << TowerFall.Background/VortexLayer::.ctor
+078707
+    << TowerFall.Orb::.cctor
+088686
+    << TowerFall.Orb::.cctor
+1
+    << Monocle.Commands::HandleKey | Monocle.Grid::GetBitstring | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+10-19 Levels
+    << TowerFall.Editor.Tower::GetTags
+1111000000000000
+1111000011110010
+1111000011100010
+1100000011100010
+1100000000000010
+1100000000000000
+1110001111000011
+1111000000000011
+    << TowerFall.Editor.OverlayBGTilesDisplay::.ctor | TowerFall.Editor.OverlaySolidTilesDisplay::.ctor
+1111111111000000
+1111111111000000
+1111110000000000
+1111110000000111
+1111100000000111
+1111111100000111
+1111111100000111
+1111111100000011
+    << TowerFall.Editor.OverlayBGTilesDisplay::.ctor | TowerFall.Editor.OverlaySolidTilesDisplay::.ctor
+160
+    << TowerFall.LevelRandomItems::AddItems
+2
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+2-9 Levels
+    << TowerFall.Editor.Tower::GetTags
+2-Player
+    << TowerFall.Editor.Tower::GetTags | TowerFall.WorkshopDiscovery::Load
+20+ Levels
+    << TowerFall.Editor.Tower::GetTags
+3
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+3-Player
+    << TowerFall.Editor.Tower::GetTags | TowerFall.WorkshopDiscovery::Load
+310
+    << TowerFall.LevelRandomItems::AddItems
+4
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+4-Player
+    << TowerFall.Editor.Tower::GetTags | TowerFall.WorkshopDiscovery::Load
+5
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+6
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+667580
+    << TowerFall.Particles::Initialize
+7
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+8
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+9
+    << Monocle.Commands::HandleKey | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+;
+    << Monocle.Commands::HandleKey
+=
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+===== Start Discovery =====
+    << TowerFall.WorkshopDiscovery::Load
+==========================================
+    << TowerFall.TFGame::Log
+?
+    << Monocle.Commands::HandleKey | TowerFall.AwardInfo::get_DataName | TowerFall.Editor.OverlayTextBox::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+???
+    << TowerFall.NewGamepadInput::.ctor
+@
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+Ally Oop Award
+    << TowerFall.VersusAwards::Initialize
+Arrow Type not recognized
+    << TowerFall.Arrow::Create
+Artless Dodger Award
+    << TowerFall.VersusAwards::Initialize
+BGBigMushroom
+    << TowerFall.Level::LoadEntity
+BGCrystal
+    << TowerFall.BGCrystal::.ctor | TowerFall.Level::LoadEntity
+BGLantern
+    << TowerFall.Editor.ActorData::Init | TowerFall.Editor.EditorScene::Begin | TowerFall.Editor.EditorScene::RefreshLanternGraphics | TowerFall.Level::LoadEntity
+BGMushroom
+    << TowerFall.BGMushroom::.ctor | TowerFall.Level::LoadEntity
+BGSkeleton
+    << TowerFall.Editor.ActorData::Init | TowerFall.Level::LoadEntity
+BGStars
+    << TowerFall.MenuBackground::.ctor
+BGTiles
+    << TowerFall.Editor.Level::.ctor | TowerFall.Editor.TilesLayer::ToXML | TowerFall.LevelLoaderXML/<Load>d__22::MoveNext
+BGTileset
+    << TowerFall.TowerTheme::.ctor
+Bank Shot Award
+    << TowerFall.VersusAwards::Initialize
+Bomb Squad Award
+    << TowerFall.VersusAwards::Initialize
+Bottle Rocket Award
+    << TowerFall.VersusAwards::Initialize
+Bubble Breaker Award
+    << TowerFall.VersusAwards::Initialize
+By submitting this tower, you agree
+    << TowerFall.Editor.SubmitToS::Render
+Caged Animal Award
+    << TowerFall.VersusAwards::Initialize
+Cannonball Award
+    << TowerFall.VersusAwards::Initialize
+Cannot Download Item
+    << TowerFall.WorkshopDiscovery::Load
+Cannot get Item install info
+    << TowerFall.WorkshopDiscovery::Load
+Cannot get icon for mode! This should only be used for Versus modes
+    << TowerFall.VersusModeButton::GetModeIcon
+Cannot get name for mode! This should only be used for Versus modes
+    << TowerFall.VersusModeButton::GetModeName
+Cannot load a Canvas
+    << Monocle.Canvas::Load
+Cause And Effect Award
+    << TowerFall.VersusAwards::Initialize
+Cobwebs in invalid position
+    << TowerFall.Cobwebs::SceneBegin
+Collisions against the collider type are not implemented!
+    << Monocle.Collider::Collide
+Comeback Kid
+    << TowerFall.VersusAwards::Initialize
+Comeback King
+    << TowerFall.VersusAwards::Initialize
+Comeback Queen
+    << TowerFall.VersusAwards::Initialize
+Command '
+    << Monocle.Commands::ExecuteCommand
+Command can only be used during gameplay!
+    << TowerFall.TFCommands/<>c__DisplayClass0_0::<Init>b__10 | TowerFall.TFCommands/<>c__DisplayClass0_0::<Init>b__11 | TowerFall.TFCommands/<>c__DisplayClass0_0::<Init>b__12 | TowerFall.TFCommands/<>c__DisplayClass0_0::<Init>b__13
+Consolation Prize
+    << TowerFall.VersusAwards::Initialize
+Couldn't find Steam!
+    << TowerFall.TFGame::Main
+Custom Background
+    << TowerFall.Editor.Tower::GetTags
+Custom Game Mode
+    << TowerFall.Editor.Tower::GetTags
+Custom Music
+    << TowerFall.Editor.Tower::GetTags
+Custom Tileset
+    << TowerFall.Editor.Tower::GetTags
+Damage Control Award
+    << TowerFall.VersusAwards::Initialize
+Dark World DLC
+    << TowerFall.Editor.Tower::GetTags
+Death Cause not recognized!
+    << TowerFall.KillStats::get_Item | TowerFall.KillStats::set_Item
+Death Type not recognized!
+    << TowerFall.KillStats::get_Item | TowerFall.KillStats::set_Item
+Death type has no sound!
+    << TowerFall.CharacterSounds::GetDeath
+Double Kill
+    << TowerFall.VersusAwards::Initialize
+Download failed
+    << TowerFall.WorkshopDiscovery::Load
+Eagle Eye Award
+    << TowerFall.VersusAwards::Initialize
+Exorcist Award
+    << TowerFall.VersusAwards::Initialize
+Fetal Position Award
+    << TowerFall.VersusAwards::Initialize
+From The Grave Award
+    << TowerFall.VersusAwards::Initialize
+GIF89a
+    << Moments.Encoder.GifEncoder::Start
+Gems can only spawn in Quest or Trials modes!
+    << TowerFall.GemPickup::Added
+Gems should only spawn in Trials mode
+    << TowerFall.GemPickup::OnPlayerCollide
+Getter not implemented for unlock!
+    << TowerFall.UnlockData::get_Item
+Graphics Disposed!
+    << Monocle.Engine::OnGraphicsCreated
+Graphics Reset!
+    << Monocle.Engine::OnGraphicsReset
+Gravedigger Award
+    << TowerFall.VersusAwards::Initialize
+Green Thumb Award
+    << TowerFall.VersusAwards::Initialize
+Happy Accident Award
+    << TowerFall.VersusAwards::Initialize
+Hyper Booper
+    << TowerFall.VersusAwards::Initialize
+Hyper Martyr Award
+    << TowerFall.VersusAwards::Initialize
+Index out of bounds!
+    << TowerFall.MatchTeams::get_Item | TowerFall.MatchTeams::set_Item
+Index out of range
+    << TowerFall.Editor.LayerSelectButton::get_Invisible | TowerFall.Editor.LayerSelectButton::get_Selected | TowerFall.Editor.LayerSelectButton::set_Invisible
+Index out of range!
+    << TowerFall.TrialsLevelStats::get_Item | TowerFall.TrialsLevelStats::set_Item
+Index was out of range!
+    << Monocle.Calc::GiveMe
+Invalid arrow type!
+    << TowerFall.TFCommands/<>c__DisplayClass0_0::<Init>b__16
+Invalid player amount for match results!
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext | TowerFall.VersusMatchResults::.ctor
+Ironman Award
+    << TowerFall.VersusAwards::Initialize
+Item folder doesn't exist
+    << TowerFall.WorkshopDiscovery::Load
+Item loading failed
+    << TowerFall.WorkshopDiscovery::Load
+Koala Award
+    << TowerFall.VersusAwards::Initialize
+Koala Hunter Award
+    << TowerFall.VersusAwards::Initialize
+Late To The Party Award
+    << TowerFall.VersusAwards::Initialize
+Least Composed
+    << TowerFall.VersusAwards::Initialize
+Least Prepared
+    << TowerFall.VersusAwards::Initialize
+Loading Complete!
+    << TowerFall.TFGame/<>c::<Load>b__120_0
+Longest Shot
+    << TowerFall.VersusAwards::Initialize
+Marksmanship Award
+    << TowerFall.VersusAwards::Initialize
+Mastermind Award
+    << TowerFall.VersusAwards::Initialize
+Mode not recognized!
+    << TowerFall.MapScene::Begin | TowerFall.MapScene::Update
+Most Compressed
+    << TowerFall.VersusAwards::Initialize
+Most Conductive
+    << TowerFall.VersusAwards::Initialize
+Most Devious
+    << TowerFall.VersusAwards::Initialize
+Most Evasive
+    << TowerFall.VersusAwards::Initialize
+Most Fashionable
+    << TowerFall.VersusAwards::Initialize
+Most Lethal
+    << TowerFall.VersusAwards::Initialize
+Most Prepared
+    << TowerFall.VersusAwards::Initialize
+Most Reckless
+    << TowerFall.VersusAwards::Initialize
+Most Regal
+    << TowerFall.VersusAwards::Initialize
+Most Takebacks
+    << TowerFall.VersusAwards::Initialize
+Most Thorough
+    << TowerFall.VersusAwards::Initialize
+Most Trigger-Happy
+    << TowerFall.VersusAwards::Initialize
+Most Twitchy
+    << TowerFall.VersusAwards::Initialize
+Most Vindictive
+    << TowerFall.VersusAwards::Initialize
+Most Zen
+    << TowerFall.VersusAwards::Initialize
+Mostly Harmless
+    << TowerFall.VersusAwards::Initialize
+Nerves Of Steel Award
+    << TowerFall.VersusAwards::Initialize
+No DirectInput gamepads detected!
+    << TowerFall.TFCommands/<>c::<Init>b__0_2
+No Goal value defined for this mode!
+    << TowerFall.MatchSettings::get_GoalScore
+No defined Round Logic for that mode!
+    << TowerFall.RoundLogic::GetRoundLogic
+No initializer for mode!
+    << TowerFall.Editor.OverlayScene::SetMode
+No suitable graphics card found!
+    << TowerFall.TFGame::Main
+No team data for neutral team!
+    << TowerFall.ArcherData::Get
+Overachiever Award
+    << TowerFall.VersusAwards::Initialize
+Pickpocket Award
+    << TowerFall.VersusAwards::Initialize
+Pickup type not registered!
+    << TowerFall.Pickup::CreatePickup
+Prism Block size not recognized!
+    << TowerFall.CataclysmBlock::.ctor
+Prism Warden Award
+    << TowerFall.VersusAwards::Initialize
+Quick Draw Award
+    << TowerFall.VersusAwards::Initialize
+Reanimator Award
+    << TowerFall.VersusAwards::Initialize
+Regicide Award
+    << TowerFall.VersusAwards::Initialize
+Right Angle Award
+    << TowerFall.VersusAwards::Initialize
+Scene type not supported
+    << TowerFall.ArcherUnlockPanel::Added
+Single Level
+    << TowerFall.Editor.Tower::GetTags
+Special Delivery Award
+    << TowerFall.VersusAwards::Initialize
+Speed of Light Award
+    << TowerFall.VersusAwards::Initialize
+Sprite type '
+    << Monocle.SpriteData::GetAutoDetect
+Standard Rules
+    << TowerFall.Editor.Tower::GetTags
+Steak In Mouth Award
+    << TowerFall.VersusAwards::Initialize
+Super Booper
+    << TowerFall.VersusAwards::Initialize
+Team Deathmatch
+    << TowerFall.Editor.Tower::GetTags | TowerFall.WorkshopDiscovery::Load
+Too Fast Too Furious
+    << TowerFall.VersusAwards::Initialize
+TowerFall Ascension
+    << TowerFall.TFGame::.ctor
+TowerFall Error Log
+    << TowerFall.TFGame::Log
+TowerFall Loading Log
+    << TowerFall.TFGame::StartLoadLog
+TowerFall Replays
+    << TowerFall.GifExportOptions::Load
+Triple Kill
+    << TowerFall.VersusAwards::Initialize
+Turncloak Award
+    << TowerFall.VersusAwards::Initialize
+Unsupported player amount!
+    << TowerFall.QuestTowerStats::BeatHardcore
+Usurper Award
+    << TowerFall.VersusAwards::Initialize
+Vendetta Award
+    << TowerFall.VersusAwards::Initialize
+Web of Lies Award
+    << TowerFall.VersusAwards::Initialize
+Who Needs Arrows?
+    << TowerFall.VersusAwards::Initialize
+William Tell Award
+    << TowerFall.VersusAwards::Initialize
+Worst Accounting
+    << TowerFall.VersusAwards::Initialize
+X-Ray Vision Award
+    << TowerFall.VersusAwards::Initialize
+XBox Controller 
+    << Monocle.MInput/XGamepadData::ToString
+\
+    << Monocle.Commands::HandleKey
+^
+    << Monocle.Commands::HandleKey | TowerFall.Editor.SubmitTextBox::HandleKey
+f
+    << Monocle.Commands::ParseBool
+to the Workshop Terms of Service
+    << TowerFall.Editor.SubmitToS::Render
+x
+    << Monocle.Atlas::.ctor | Monocle.Calc::FirstNode | Monocle.Calc::FirstNodeNullable | Monocle.Calc::Nodes
+x 
+    << TowerFall.QuestGauntletCounter::SetAmount
+xRange
+    << TowerFall.Background/FadeLayer::.ctor | TowerFall.Background/FadeMoveLayer::.ctor | TowerFall.Background/NodeLayer::.ctor
+y
+    << Monocle.Atlas::.ctor | Monocle.Calc::FirstNode | Monocle.Calc::FirstNodeNullable | Monocle.Calc::Nodes
+yRange
+    << TowerFall.Background/FadeLayer::.ctor | TowerFall.Background/FadeMoveLayer::.ctor | TowerFall.Background/NodeLayer::.ctor
+|
+    << Monocle.Commands::HandleKey

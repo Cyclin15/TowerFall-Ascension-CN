@@ -1,0 +1,1273 @@
+%DOCUMENT%
+    << TowerFall.GifExportOptions::Load
+) DISCONNECTED!
+    << TowerFall.PauseMenu::Render
++ AIM
+    << TowerFall.IntroControls::.ctor | TowerFall.IntroControls::DrawGamepadControls | TowerFall.IntroControls::DrawKeyboardControls
++ CATCH
+    << TowerFall.IntroControls::.ctor
+-PLAYER FREE-FOR-ALL
+    << TowerFall.CustomMapButton::Added
+00B800
+    << TowerFall.Particles::Initialize
+00C4C7
+    << TowerFall.EvilCrystal::.ctor
+00D33B
+    << TowerFall.Arrow::.cctor
+00E605
+    << TowerFall.TowerTheme::OnLoad
+00E8D8
+    << TowerFall.Particles::Initialize
+00FF4C
+    << TowerFall.Arrow::.cctor
+0123456789ABCDEF
+    << Monocle.Calc::HexToByte
+1 CURSE
+    << TowerFall.DarkWorldLevelSelectOverlay::RefreshLevelStats
+1 DAY, 
+    << TowerFall.ArchivesSessionPage::GetTimeString | TowerFall.ArchivesStatsPage::GetTimeString
+1-4 ARCHERS
+    << TowerFall.CoOpButton::.ctor
+11FF22
+    << TowerFall.GhostShipWindow::.ctor
+14FF18
+    << TowerFall.TowerTheme::OnLoad
+1BB7EE
+    << TowerFall.Arrow::.cctor
+2-4 ARCHERS
+    << TowerFall.FightButton::.ctor
+200 X 40 IMAGE - MAX SIZE 
+    << TowerFall.Editor.OverlayCustomBGTilesButton::.ctor
+2277FF
+    << TowerFall.Ghost::.ctor
+320 X 240 IMAGE - MAX SIZE 
+    << TowerFall.Editor.OverlayCustomBackgroundButton::.ctor
+38004C
+    << TowerFall.BottomMiasma::.cctor | TowerFall.Miasma::.cctor
+3CBCFC
+    << TowerFall.BorderButton::.cctor | TowerFall.OptionsButton::.cctor | TowerFall.VariantItem::.cctor
+3E5259
+    << TowerFall.Editor.SubmitVisibility::Render
+40 X 110 IMAGE - MAX SIZE 
+    << TowerFall.Editor.OverlayCustomSolidTilesButton::.ctor
+47C0D1
+    << TowerFall.BGCrystal::.cctor
+49C56D
+    << TowerFall.Particles::Initialize
+49F8FF
+    << TowerFall.ArchivesAscensionPage::.cctor
+4EB1E9
+    << TowerFall.TowerTheme::.ctor
+53DBCF
+    << TowerFall.ArchivesSessionPage::.ctor
+53E527
+    << TowerFall.Particles::Initialize
+55FF69
+    << TowerFall.Ghost::.ctor
+56D4FF
+    << TowerFall.Arrow::.cctor
+5884A7
+    << TowerFall.Editor.IconData::get_EdgeColor
+5CF5FF
+    << TowerFall.Particles::Initialize
+6194B8
+    << TowerFall.MapButton::.cctor
+6BFF5E
+    << TowerFall.Editor.EditorScene::ToolbarNew | TowerFall.Editor.EditorScene::ToolbarOpen | TowerFall.Editor.EditorScene::ToolbarQuit
+70FF6B
+    << TowerFall.RollcallElement::.cctor
+7656A7
+    << TowerFall.Editor.IconData::get_EdgeColor
+7700C2
+    << TowerFall.BottomMiasma::.cctor | TowerFall.Miasma::.cctor
+7AFF99
+    << TowerFall.EvilCrystal::.ctor
+7D8C8A
+    << TowerFall.Particles::Initialize
+7D8E39
+    << TowerFall.Particles::Initialize
+7FFFE7
+    << TowerFall.ArchivesAscensionPage::.cctor
+8261B8
+    << TowerFall.MapButton::.cctor
+85DEFF
+    << TowerFall.Particles::Initialize
+86A867
+    << TowerFall.Particles::Initialize
+87AFFF
+    << TowerFall.QuestComplete/<Sequence>d__8::MoveNext
+87E2ED
+    << TowerFall.DarkWorldBossTitle::.ctor
+88DFF6
+    << TowerFall.BombParticle::.ctor
+88FF51
+    << TowerFall.Editor.EditorScene::.cctor
+896B61
+    << TowerFall.VersusPlayerMatchResults::.cctor
+8AFF47
+    << TowerFall.DarkWorldVariantsSelect::.cctor
+8CFF8E
+    << TowerFall.TowerTheme::OnLoad
+8ECE27
+    << TowerFall.ArchivesGlobalStatsPage::.ctor
+8EE8FF
+    << TowerFall.Arrow::.cctor | TowerFall.Particles::Initialize
+95F07F
+    << TowerFall.JumpPad::.ctor
+95F94D
+    << TowerFall.CoOpDataDisplay::.cctor
+96DDFF
+    << TowerFall.DarkWorldDifficultySelect::.cctor | TowerFall.QuestDifficultySelect::.cctor
+9878F8
+    << TowerFall.Particles::Initialize
+9BDFD4
+    << TowerFall.Particles::Initialize
+9DFF00
+    << TowerFall.ArchivesGlobalStatsPage::.ctor
+9ED1FF
+    << TowerFall.FloorMiasma::.ctor
+=== LOADING COMPLETE ===
+    << TowerFall.TFGame/<>c::<Load>b__120_0
+=== LOADING DATA ===
+    << TowerFall.TFGame/<>c::<Load>b__120_0
+A NEW FOE
+    << TowerFall.ArcherUnlockPanel/<Sequence>d__21::MoveNext
+A0FFFA
+    << TowerFall.ArchivesButton::.cctor
+ACTOR LIMIT
+    << TowerFall.Editor.ActorWeightBar::Render
+ACTORS LAYER
+    << TowerFall.Editor.LayerSelectButton::.ctor
+AFEB00
+    << TowerFall.Particles::Initialize
+AIM
+    << TowerFall.CharacterSounds::.ctor
+ALEC HOLOWKA
+    << TowerFall.DrawCredits::Render
+ALEX CAMILLERI
+    << TowerFall.DrawCredits::Render
+ALLOW DIRECTINPUT GAMEPADS
+    << TowerFall.MainMenu::CreateControlOptions
+ALT SHOOT
+    << TowerFall.KeyboardConfigMenu::Render
+AMORA BETTANY
+    << TowerFall.DrawCredits::Render
+AND VERSUS RECORDS
+    << TowerFall.ClearAllData::Render
+ANIMATOR
+    << TowerFall.DrawCredits::Render
+ANITA SARKEESIAN
+    << TowerFall.DrawCredits::.ctor
+ANY
+    << TowerFall.Editor.OverlayRecommendedModeButton::Render
+APPLIED UNTIL THE GAME IS RESTARTED
+    << TowerFall.VsyncAlert::Render
+APPLY
+    << TowerFall.WorkshopModeOverlay::Render
+APPROACHES!
+    << TowerFall.ArcherUnlockPanel/<Sequence>d__21::MoveNext
+ARCHER
+    << TowerFall.Editor.ActorData::Init
+ARCHER SELECT
+    << TowerFall.PauseMenu::.ctor
+ARCHIVES
+    << TowerFall.ArchivesButton::.ctor
+ARE YOU SURE?
+    << TowerFall.ClearAllData::Render
+ARROW TOGGLE
+    << TowerFall.KeyboardConfigMenu::Render
+ARROWS
+    << TowerFall.ArrowTypePickup::OnPlayerCollide | TowerFall.Editor.OverlayTreasureSlider::Render
+ASCENSION
+    << TowerFall.ArchivesAscensionPage::.ctor | TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection | TowerFall.UnlockData::HandleVariantsAndAchievements
+ASHLY BURCH
+    << TowerFall.DrawCredits::.ctor
+AT THE CENTER OF ALL CREATION
+    << TowerFall.DarkWorldBossTitle::.ctor
+AUTOSAVE
+    << TowerFall.Editor.SaveGem::Render
+AUTOSAVE!
+    << TowerFall.Editor.SaveGem::Render
+AWARDS
+    << TowerFall.ArchivesAwardsPage::.ctor | TowerFall.VersusAwards::GetAwards
+B
+    << TowerFall.DreadwoodBossControl::.ctor
+B1FF9E
+    << TowerFall.Ghost::.ctor
+B4F9C8
+    << TowerFall.BGMushroom::.ctor
+B59C63
+    << TowerFall.Particles::Initialize
+B5E7F2
+    << TowerFall.Particles::Initialize
+B6FF00
+    << TowerFall.TrialsResults/<CompleteResults>d__13::MoveNext
+B76C43
+    << TowerFall.ArchivesGlobalStatsPage::.ctor
+B8B8F8
+    << TowerFall.Particles::Initialize
+B8F818
+    << TowerFall.Arrow::.cctor
+B8F8B8
+    << TowerFall.Particles::Initialize | TowerFall.SwitchBlock::.cctor
+B9DFFE
+    << TowerFall.BombParticle::.ctor
+BACK
+    << TowerFall.WorkshopNoLevels::Render
+BACK TO EDITOR
+    << TowerFall.PauseMenu::.ctor
+BACKGROUND LAYER
+    << TowerFall.Editor.LayerSelectButton::.ctor
+BANNER
+    << TowerFall.Editor.ActorData::Init
+BC70FF
+    << TowerFall.Arrow::.cctor
+BEAU BLYTH
+    << TowerFall.DrawCredits::.ctor
+BEGIN!
+    << TowerFall.DarkWorldVariantsBeginButton::Render | TowerFall.TeamSelectOverlay::Render | TowerFall.VersusBeginButton::Render
+BG
+    << TowerFall.Editor.BGLayer::ToXML | TowerFall.Editor.Level::.ctor | TowerFall.GameData::Load | TowerFall.LevelLoaderXML/<Load>d__22::MoveNext
+BG TILES
+    << TowerFall.Editor.OverlayModeButton::.ctor | TowerFall.Editor.OverlayScene::SetMode
+BIG TREASURE
+    << TowerFall.Editor.ActorData::Init
+BLUE SWITCH
+    << TowerFall.Editor.ActorData::Init
+BOLT
+    << TowerFall.Arrow::.cctor
+BOMB
+    << TowerFall.Arrow::.cctor
+BONES
+    << TowerFall.Editor.ActorData::Init
+BRAMBLE
+    << TowerFall.Arrow::.cctor
+BROWSE
+    << TowerFall.BrowseWorkshopButton::.ctor
+BROWSE STEAM WORKSHOP FOR NEW TOWERS
+    << TowerFall.WorkshopDataDisplay::Render
+BUILD
+    << TowerFall.Editor.EditorTutorial::Render
+BY 
+    << TowerFall.MapButton::.ctor | TowerFall.VersusStart/<SessionIntroSequence>d__14::MoveNext | TowerFall.WorkshopDiscovery/<FinishSequence>d__18::MoveNext
+C1FFF3
+    << TowerFall.GhostPlatform::.ctor | TowerFall.LoopPlatform::.ctor | TowerFall.RotatePlatform::.ctor
+C2280B
+    << TowerFall.Particles::Initialize
+C2EAFF
+    << TowerFall.Editor.OverlayTreasureDisplay::.cctor
+CANCEL
+    << TowerFall.ClearAllData::Render | TowerFall.Editor.EditorScene::ToolbarNew | TowerFall.Editor.EditorScene::ToolbarOpen | TowerFall.Editor.EditorScene::ToolbarQuit
+CATACLYSM
+    << TowerFall.DarkWorldBossTitle::.ctor | TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+CCAC2C
+    << TowerFall.ArchivesGlobalStatsPage::.ctor
+CCC7BD
+    << TowerFall.Particles::Initialize
+CCF8FF
+    << TowerFall.BGCrystal::.cctor
+CELLAR DOOR
+    << TowerFall.DrawCredits::.ctor
+CHAIN
+    << TowerFall.Editor.ActorData::Init
+CHALICE PAD
+    << TowerFall.Editor.ActorData::Init
+CHARACTER DESIGNER
+    << TowerFall.DrawCredits::Render
+CHEVY RAY JOHNSTON
+    << TowerFall.DrawCredits::.ctor
+CHRIS PLANTE
+    << TowerFall.DrawCredits::.ctor
+CHRIS SPANGLER
+    << TowerFall.DrawCredits::.ctor | TowerFall.DrawCredits::Render
+CIPHER PRIME
+    << TowerFall.DrawCredits::.ctor
+CLEAR
+    << TowerFall.VariantPreset::OnConfirm | TowerFall.VariantPreset::OnSelect
+CLEAR ALL GAME DATA
+    << TowerFall.MainMenu::CreateOptions
+CLEAR DATA?
+    << TowerFall.ClearAllData::Render
+CLEAR LAYER
+    << TowerFall.Editor.EditorScene::Begin
+CO-OP
+    << TowerFall.CoOpButton::.ctor
+COALS
+    << TowerFall.Editor.ActorData::Init
+COLD
+    << TowerFall.Editor.OverlayScene::InitModeTower
+COMPLETE!
+    << TowerFall.TrialsResults/<CompleteResults>d__13::MoveNext
+CONCEPT ARTIST
+    << TowerFall.DrawCredits::Render
+CONFIGURE
+    << TowerFall.KeyboardConfigMenu::Render
+CONFIGURE KEYBOARD
+    << TowerFall.MainMenu::CreateControlOptions
+CONFIRM
+    << TowerFall.ClearAllData::Render | TowerFall.PressStartText::Render
+CONTINUE
+    << TowerFall.PauseMenu::.ctor | TowerFall.VersusRoundResults/<Sequence>d__25::MoveNext
+CONTINUE (
+    << TowerFall.PauseMenu::.ctor
+CONTROL OPTIONS
+    << TowerFall.MainMenu::CreateOptions
+CONTROLLER (P
+    << TowerFall.PauseMenu::Render
+COREY NOLAN
+    << TowerFall.DrawCredits::.ctor
+CORI DICKINSON
+    << TowerFall.DrawCredits::.ctor
+CRACKED
+    << TowerFall.Editor.ActorData::Init
+CRACKED WALL
+    << TowerFall.Editor.ActorData::Init
+CREATE
+    << TowerFall.Editor.EditorTutorial::Render
+CREATE CUSTOM VERSUS TOWERS!
+    << TowerFall.WorkshopDataDisplay::Render
+CREDITS
+    << TowerFall.DrawCredits::Render | TowerFall.MainMenu::CreateMain
+CRUMBLE
+    << TowerFall.Editor.ActorData::Init
+CRUMBLE BLOCK
+    << TowerFall.Editor.ActorData::Init
+CRUSHER
+    << TowerFall.Editor.ActorData::Init
+CURSES
+    << TowerFall.DarkWorldVariantsSelect::Render
+CUSTOM
+    << TowerFall.Editor.OverlayMusicDisplay::Render
+CUSTOM BACKGROUND
+    << TowerFall.Editor.OverlayCustomBackgroundButton::Render
+CUSTOM MUSIC
+    << TowerFall.Editor.OverlayCustomMusicButton::Render
+CUSTOM TILESET
+    << TowerFall.Editor.OverlayCustomBGTilesButton::Render | TowerFall.Editor.OverlayCustomSolidTilesButton::Render
+CUSTOM TOWERS WITH THE
+    << TowerFall.GoToWorkshopMapButton::Render
+CYAN
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+D0F76C
+    << TowerFall.Arrow::.cctor
+D589FF
+    << TowerFall.DarkWorldVariantsSelect::.cctor
+D5A5FF
+    << TowerFall.Arrow::.cctor
+D7E3EA
+    << TowerFall.Particles::Initialize
+D800CC
+    << TowerFall.Particles::Initialize
+D8F7FF
+    << TowerFall.Arrow::.cctor
+D8F878
+    << TowerFall.OptionsButton::.cctor | TowerFall.VariantItem::.cctor
+D942FF
+    << TowerFall.DeathSkull::.cctor
+DARK GAUNTLET
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+DARK PORTALS
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+DARK WORLD
+    << TowerFall.ArchivesDarkWorldPage::.ctor | TowerFall.DarkWorldButton::.ctor | TowerFall.Editor.OverlayScene::InitModeTower
+DARK WORLD EXPANSION
+    << TowerFall.CustomMapButton::Added | TowerFall.MatchVariants::BuildMenu
+DARKFANG
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+DB4ADB
+    << TowerFall.Arrow::.cctor
+DBFFF9
+    << TowerFall.Particles::Initialize
+DEATHS
+    << TowerFall.ArchivesDeathsPage::.ctor | TowerFall.ArchivesSessionPage::.ctor
+DEFEND TOWERFALL FROM INVADING MONSTERS!
+    << TowerFall.CoOpDataDisplay::Render
+DELETE
+    << TowerFall.Editor.OverlayLevelManager::Added
+DESELECT
+    << TowerFall.CharacterSounds::.ctor
+DESIGNER
+    << TowerFall.DrawCredits::Render
+DESTROY
+    << TowerFall.Editor.EditorTutorial::Render
+DETAIL LAYER
+    << TowerFall.Editor.LayerSelectButton::.ctor
+DFC28D
+    << TowerFall.Editor.IconData::get_EdgeColor
+DFC5EA
+    << TowerFall.Particles::Initialize
+DIE
+    << TowerFall.CharacterSounds::.ctor
+DIRECTOR
+    << TowerFall.DrawCredits::Render
+DISABLE ALL
+    << TowerFall.VariantDisableAll::.ctor
+DISABLE SAVING
+    << TowerFall.Saver::Render
+DISABLED
+    << TowerFall.Editor.SaveGem::Render
+DISCOVERY
+    << TowerFall.DiscoveryMapButton::.ctor
+DO NOT POWER OFF THE SYSTEM
+    << TowerFall.SavingInfoScene::Render
+DOCUMENTS FOLDER!
+    << TowerFall.GifExporter::Render
+DODGE
+    << TowerFall.IntroControls::.ctor | TowerFall.IntroControls::DrawGamepadControls | TowerFall.IntroControls::DrawKeyboardControls | TowerFall.KeyboardConfigMenu::Render
+DODGE + MENU ALT FUNCTIONS
+    << TowerFall.KeyboardConfigMenu::Render
+DODGES
+    << TowerFall.GameStats::get_Dodges | TowerFall.GameStats::set_Dodges
+DON'T
+    << TowerFall.WorkshopModeOverlay::Render
+DONE
+    << TowerFall.Editor.SubmitProgress::Render | TowerFall.MainMenu::CreateVariants
+DOWN
+    << TowerFall.KeyboardConfigMenu::Render
+DOWNLOAD FAILED
+    << TowerFall.WorkshopDiscovery::Load
+DOWNLOAD TIMEOUT
+    << TowerFall.WorkshopDiscovery::Load
+DOWNLOADING
+    << TowerFall.WorkshopDiscovery::Load
+DRAW
+    << TowerFall.Editor.EditorTutorial::Render
+DRAW BACKGROUND WALLS
+    << TowerFall.Editor.EditorTutorial::Render
+DRAW SOLID BLOCKS
+    << TowerFall.Editor.EditorTutorial::Render
+DREADWOOD
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+DRILL
+    << TowerFall.Arrow::.cctor
+DUCK
+    << TowerFall.CharacterSounds::.ctor
+DUPLICATE
+    << TowerFall.Editor.EditorTutorial::Render | TowerFall.Editor.OverlayLevelManager::Added
+E0B86D
+    << TowerFall.ArchivesSessionPage::.cctor | TowerFall.ArchivesStatsPage::.cctor
+E0E0D0
+    << TowerFall.Editor.IconData::get_SolidColor | TowerFall.TowerMapData::BuildIcon
+E29BFF
+    << TowerFall.Particles::Initialize
+E55137
+    << TowerFall.Particles::Initialize
+E57F57
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext
+E6F77B
+    << TowerFall.ArchivesSessionPage::.cctor | TowerFall.ArchivesStatsPage::.cctor
+E7E3E7
+    << TowerFall.Editor.IconData::get_EdgeColor | TowerFall.TowerMapData::BuildIcon
+EAC831
+    << TowerFall.BorderButton::.cctor | TowerFall.DarkWorldHUD::.cctor | TowerFall.DarkWorldPortal::.cctor
+EB1717
+    << TowerFall.KingReaper::.cctor | TowerFall.Particles::Initialize
+EBFF5B
+    << TowerFall.ArrowHUD::.cctor
+EDITOR
+    << TowerFall.EditorButton::.ctor
+EED6FA
+    << TowerFall.WhiteArcherPrison::.ctor
+EEFF59
+    << TowerFall.Particles::Initialize
+EF4A52
+    << TowerFall.DarkWorldBossTitle::.ctor
+EFD96B
+    << TowerFall.DrawCredits::.cctor
+ENABLE DEV CONSOLE
+    << TowerFall.MainMenu::CreateOptions
+ENABLED
+    << TowerFall.Editor.SaveGem::Render
+ENTER THE DARK WORLD AND SEEK VENGEANCE!
+    << TowerFall.CoOpDataDisplay::Render
+EPIC MATCH
+    << TowerFall.VersusCoinButton::.cctor
+ERASE
+    << TowerFall.Editor.EditorTutorial::Render
+ERROR LOADING SAVE FILE!
+    << TowerFall.MainMenu::Render
+ERROR!
+    << TowerFall.WorkshopDiscovery::Render
+ETHAN LEE
+    << TowerFall.DrawCredits::Render
+EXIT
+    << TowerFall.Editor.EditorScene::Begin
+EXPANSION
+    << TowerFall.CoOpDataDisplay::Render | TowerFall.GoToWorkshopMapButton::Render | TowerFall.MapDarkWorldGate::Render | TowerFall.RollcallElement::Render
+EXPLAIN
+    << TowerFall.VariantToggle::OnSelect
+EXPLODE ORB
+    << TowerFall.Editor.ActorData::Init
+EXPLODE SPIKE
+    << TowerFall.Editor.ActorData::Init
+EXPORT
+    << TowerFall.Editor.OverlayScene::InitModeBGTiles | TowerFall.Editor.OverlayScene::InitModeBackground | TowerFall.Editor.OverlayScene::InitModeMusic | TowerFall.Editor.OverlayScene::InitModeSolidTiles
+EXPORTING ANIMATED GIF
+    << TowerFall.GifExporter::Render
+EYEDROPPER
+    << TowerFall.Editor.EditorTutorial::Render
+F
+    << Monocle.Commands::<.ctor>b__23_5 | TowerFall.SessionStats::GetKillDeathRatio | TowerFall.SessionStats::GetWinRatio | TowerFall.TreasureSpawner::LogSpawnRates
+F6DA9C
+    << TowerFall.MapButton::.cctor
+F6FF00
+    << TowerFall.Particles::Initialize
+F7B09E
+    << TowerFall.Arrow::.cctor
+F7BB59
+    << TowerFall.PauseMenu::.cctor | TowerFall.WorkshopModeOverlay::.cctor | TowerFall.WorkshopSubscribeOverlay::.cctor
+F7D883
+    << TowerFall.Arrow::.cctor
+F7EAC3
+    << TowerFall.Arrow::.cctor
+F7F44A
+    << TowerFall.Editor.SubmitVisibility::Render
+F83800
+    << TowerFall.Arrow::.cctor | TowerFall.DarkWorldControl/<LevelIntroSequence>d__27::MoveNext | TowerFall.Particles::Initialize | TowerFall.TowerTheme::EndingSwitchToNormalWorld
+F87858
+    << TowerFall.Arrow::.cctor | TowerFall.PauseMenu::.cctor | TowerFall.WorkshopModeOverlay::.cctor | TowerFall.WorkshopSubscribeOverlay::.cctor
+F878F8
+    << TowerFall.DarkWorldControl/<LevelIntroSequence>d__27::MoveNext | TowerFall.VersusStart/<IntroSequence>d__15::MoveNext
+F8A4C0
+    << TowerFall.Particles::Initialize
+F8B800
+    << TowerFall.Arrow::.cctor | TowerFall.OrbPickup::.cctor | TowerFall.Particles::Initialize | TowerFall.TowerTheme::OnLoad
+F8B8F8
+    << TowerFall.OrbPickup::.cctor | TowerFall.Particles::Initialize
+F8D878
+    << TowerFall.Particles::Initialize
+F8F8F8
+    << TowerFall.Particles::Initialize | TowerFall.PauseMenu::.cctor | TowerFall.WorkshopModeOverlay::.cctor | TowerFall.WorkshopSubscribeOverlay::.cctor
+FAILED TO LOAD
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.ArchivesStatsPage::.ctor
+FAILURE
+    << TowerFall.TrialsResults/<DeadResults>d__12::MoveNext
+FCF353
+    << TowerFall.TowerTheme::EndingSwitchToNormalWorld | TowerFall.TowerTheme::OnLoad
+FEATHER
+    << TowerFall.Arrow::.cctor
+FELIX KRAMER
+    << TowerFall.DrawCredits::.ctor
+FF1911
+    << TowerFall.ShiftBlock::.cctor
+FF2B35
+    << TowerFall.DarkWorldPortal::.cctor
+FF2E16
+    << TowerFall.ArrowHUD::.cctor
+FF2EFC
+    << TowerFall.Particles::Initialize | TowerFall.QuestSpawnPortal::.ctor
+FF321C
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext
+FF3A89
+    << TowerFall.Editor.OverlayTreasureDisplay::.cctor
+FF4C52
+    << TowerFall.ArchivesAscensionPage::.cctor
+FF52FF
+    << TowerFall.Arrow::.cctor | TowerFall.Particles::Initialize
+FF5335
+    << TowerFall.DeathSkull::.cctor
+FF5432
+    << TowerFall.DarkWorldDifficultySelect::.cctor | TowerFall.QuestDifficultySelect::.cctor
+FF5538
+    << TowerFall.Editor.EditorScene::ToolbarNew | TowerFall.Editor.EditorScene::ToolbarOpen | TowerFall.Editor.EditorScene::ToolbarQuit
+FF5E5B
+    << TowerFall.Ghost::.ctor
+FF633D
+    << TowerFall.Editor.EditorScene::.cctor
+FF6DFA
+    << TowerFall.Arrow::.cctor
+FF6F1C
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.ArchivesStatsPage::.ctor
+FF7749
+    << TowerFall.ArchivesAscensionPage::.cctor
+FF843D
+    << TowerFall.Editor.ActorSelector::.cctor
+FF88FF
+    << TowerFall.PrismVanish::.ctor
+FFADB0
+    << TowerFall.CataclysmEye/<ExplodingCoroutine>d__71::MoveNext | TowerFall.CataclysmEye::.ctor
+FFB5FC
+    << TowerFall.Arrow::.cctor
+FFBDF0
+    << TowerFall.EvilCrystal::.ctor
+FFCC00
+    << TowerFall.ArchivesGlobalStatsPage::.ctor
+FFD400
+    << TowerFall.Particles::Initialize
+FFD42B
+    << TowerFall.QuestGameOver/<Sequence>d__6::MoveNext
+FFD677
+    << TowerFall.ArchivesAscensionPage::.cctor
+FFD9FF
+    << TowerFall.Particles::Initialize
+FFDA9B
+    << TowerFall.BladeButton::.cctor
+FFDB59
+    << TowerFall.ArchivesAscensionPage::.cctor
+FFDC6B
+    << TowerFall.MainModeButton::.cctor
+FFDE3D
+    << TowerFall.TrialsTimes/<Sequence>d__5::MoveNext
+FFDE8C
+    << TowerFall.Particles::Initialize
+FFE052
+    << TowerFall.ShiftBlock::.cctor
+FFE07C
+    << TowerFall.Particles::Initialize
+FFE22B
+    << TowerFall.DarkWorldDifficultySelect::.cctor | TowerFall.QuestDifficultySelect::.cctor
+FFE23F
+    << TowerFall.VersusPlayerMatchResults::.cctor
+FFE83F
+    << TowerFall.Editor.ActorSelector::.cctor
+FFEB2E
+    << TowerFall.Particles::Initialize | TowerFall.Pickup::.cctor
+FFEC5E
+    << TowerFall.VersusRoundResults::.cctor
+FFEE35
+    << TowerFall.QuestComplete/<ShowPlayerStats>d__9::MoveNext
+FFF9C9
+    << TowerFall.Particles::Initialize
+FFF9E1
+    << TowerFall.Particles::Initialize
+FFFC5E
+    << TowerFall.Editor.EditorScene::ToolbarNew | TowerFall.Editor.EditorScene::ToolbarOpen | TowerFall.Editor.EditorScene::ToolbarQuit
+FFFFFF
+    << TowerFall.Arrow::.cctor | TowerFall.OrbPickup::.cctor | TowerFall.Particles::Initialize
+FIGHT!
+    << TowerFall.ReadyBanner::Render
+FIGHT!!
+    << TowerFall.DarkWorldControl/<LevelIntroSequence>d__27::MoveNext | TowerFall.VersusStart/<IntroSequence>d__15::MoveNext
+FILE MAY BE IN USE, OR DISK MAY BE FULL
+    << Monocle.Calc::SaveFile
+FILE MAY BE IN USE, OR FORMAT IS INVALID
+    << Monocle.Calc::LoadFile
+FILE WILL BE OVERWRITTEN IF YOU SAVE
+    << TowerFall.MainMenu::Render
+FLOOD FILL
+    << TowerFall.Editor.EditorTutorial::Render
+FOG
+    << TowerFall.Editor.OverlayScene::InitModeBackground
+FOLSOM STREET FOUNDRY
+    << TowerFall.DrawCredits::.ctor
+FOR 1 OR 2 ARCHERS
+    << TowerFall.CoOpDataDisplay::Render
+FOR 1-4 ARCHERS
+    << TowerFall.CoOpDataDisplay::Render
+FRIENDS
+    << TowerFall.Editor.SubmitVisibility::Render
+FULLSCREEN
+    << TowerFall.MainMenu::CreateOptions
+GAMEPAD DISCOVERY
+    << TowerFall.MainMenu::CreateControlOptions
+GAMEPAD RUMBLE
+    << TowerFall.MainMenu::CreateControlOptions
+GHOST
+    << TowerFall.Editor.ActorData::Init
+GLOBAL
+    << TowerFall.ArchivesGlobalStatsPage::.ctor
+GO!
+    << TowerFall.DarkWorldPortal::HUDRender
+GRAB
+    << TowerFall.CharacterSounds::.ctor
+GRANITE
+    << TowerFall.Editor.ActorData::Init
+GREG LOBANOV
+    << TowerFall.DrawCredits::.ctor
+GRID
+    << TowerFall.Editor.EditorScene::Begin
+GUNN STYLE
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+H
+    << TowerFall.MoonGlassBlock::AddShine
+HAND-DRAW BACKGROUND TILES
+    << TowerFall.Editor.EditorTutorial::Render
+HANNES FLOR
+    << TowerFall.DrawCredits::Render
+HARDCORE
+    << TowerFall.DarkWorldDifficultySelect::.ctor | TowerFall.QuestDifficultySelect::.ctor
+HARDCORE MODE
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext | TowerFall.DarkWorldControl/<StartMatchSequence>d__18::MoveNext | TowerFall.QuestControl/<StartSequence>d__17::MoveNext | TowerFall.QuestGameOver/<Sequence>d__6::MoveNext
+HEADHUNTERS
+    << TowerFall.Editor.OverlayRecommendedModeButton::Render | TowerFall.VersusModeButton::GetModeName | TowerFall.VersusStart/<SessionIntroSequence>d__14::MoveNext | TowerFall.WorkshopModeOverlay::Render
+HOLD
+    << TowerFall.GifExporter::Render
+HOLD TO PAUSE
+    << TowerFall.MainMenu::CreateControlOptions
+HOTKEYS
+    << TowerFall.PauseMenu::Render
+HUMBLE BUNDLE
+    << TowerFall.DrawCredits::.ctor
+I
+    << TowerFall.TrialsStart/<Sequence>d__5::MoveNext
+ICE
+    << TowerFall.Editor.ActorData::Init
+ICICLE
+    << TowerFall.Editor.ActorData::Init
+IF YOU CHANGE YOUR TOWER,
+    << TowerFall.Editor.SubmitProgress::Render
+IGNORE TOWER ITEM SET
+    << TowerFall.Editor.OverlayScene::InitModeVariants
+IMPORT
+    << TowerFall.Editor.OverlayScene::InitModeBGTiles | TowerFall.Editor.OverlayScene::InitModeBackground | TowerFall.Editor.OverlayScene::InitModeMusic | TowerFall.Editor.OverlayScene::InitModeSolidTiles
+IMPOSSIBLE HORROR
+    << TowerFall.DarkWorldBossTitle::.ctor
+INCLUDES PRISM ARROW TREASURE
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+INCLUDES TRIGGER ARROW TREASURE
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+INSTANT
+    << TowerFall.ReplayViewer::PostScreenRender
+INSTANT MATCH
+    << TowerFall.VersusCoinButton::.cctor
+INSTANT REPLAY RECORDING
+    << TowerFall.MainMenu::CreateOptions
+JAMIE CHENG
+    << TowerFall.DrawCredits::.ctor
+JEAN-FRANCOIS MAJOR
+    << TowerFall.DrawCredits::.ctor
+JEFF TANGSOC
+    << TowerFall.DrawCredits::Render
+JOHN SANDERS
+    << TowerFall.DrawCredits::.ctor
+JOSUE MONCHAN
+    << TowerFall.DrawCredits::Render
+JUMP
+    << TowerFall.CharacterSounds::.ctor | TowerFall.IntroControls::.ctor | TowerFall.IntroControls::DrawGamepadControls | TowerFall.IntroControls::DrawKeyboardControls
+JUMP + MENU CONFIRM
+    << TowerFall.KeyboardConfigMenu::Render
+JUMPPAD
+    << TowerFall.Editor.ActorData::Init
+JUMPS
+    << TowerFall.GameStats::get_Jumps | TowerFall.GameStats::set_Jumps
+KELLEE SANTIAGO
+    << TowerFall.DrawCredits::.ctor
+KERT GARTNER
+    << TowerFall.DrawCredits::.ctor | TowerFall.DrawCredits::Render
+KEVIN REGAMEY
+    << TowerFall.DrawCredits::Render
+KEYBOARD
+    << Monocle.MInput/KeyboardData::get_Name | TowerFall.KeyboardInput::get_Name
+KEYBOARD 
+    << TowerFall.KeyboardInput::get_Name
+KEYBOARD PLAYER 1
+    << TowerFall.KeyboardConfigMenu::Render
+KEYBOARD PLAYER 2
+    << TowerFall.KeyboardConfigMenu::Render
+KEYBOARD PLAYER 3
+    << TowerFall.KeyboardConfigMenu::Render
+KEYBOARD PLAYER 4
+    << TowerFall.KeyboardConfigMenu::Render
+KILLS
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.ArchivesSessionPage::.ctor | TowerFall.GameStats::get_TotalVersusKills | TowerFall.GameStats::set_TotalVersusKills
+KILLS BY ARCHER
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.ArchivesStatsPage::.ctor
+KYLE PULVER
+    << TowerFall.DrawCredits::.ctor
+LADY ABIGAIL
+    << TowerFall.DarkWorldBossTitle::.ctor
+LAND
+    << TowerFall.CharacterSounds::.ctor
+LANTERN
+    << TowerFall.Editor.ActorData::Init
+LANTERNS
+    << TowerFall.Editor.OverlayTowerLanterns::Render
+LASER
+    << TowerFall.Arrow::.cctor
+LAST MAN STANDING
+    << TowerFall.Editor.OverlayRecommendedModeButton::Render | TowerFall.VersusModeButton::GetModeName | TowerFall.VersusStart/<SessionIntroSequence>d__14::MoveNext | TowerFall.WorkshopModeOverlay::Render
+LAUNCHES
+    << TowerFall.GameStats::get_TimesLaunched | TowerFall.GameStats::set_TimesLaunched
+LEFT
+    << TowerFall.KeyboardConfigMenu::Render
+LEGENDARY
+    << TowerFall.DarkWorldDifficultySelect::.ctor
+LEGENDARY MODE
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext | TowerFall.DarkWorldControl/<StartMatchSequence>d__18::MoveNext
+LESSONS
+    << TowerFall.ArchivesTipsPage::.ctor
+LEVEL 
+    << TowerFall.DarkWorldControl/<LevelIntroSequence>d__27::MoveNext | TowerFall.Editor.LevelTitleDisplay::OnSetLevel
+LIGHT
+    << TowerFall.Editor.OverlayTowerDarknessSlider::Render
+LOAD PRESET 
+    << TowerFall.VariantPreset::GetTitle
+LOADING
+    << TowerFall.Loader::.cctor | TowerFall.TFGame/<>c::<Load>b__120_0
+LOCALIZATION
+    << TowerFall.DrawCredits::Render
+MAP
+    << TowerFall.PauseMenu::.ctor
+MATCH SETTINGS
+    << TowerFall.PauseMenu::.ctor
+MATCHES
+    << TowerFall.GameStats::get_MatchesPlayed | TowerFall.GameStats::set_MatchesPlayed
+MATT THORSON
+    << TowerFall.DrawCredits::Render
+MATTHEW WEGNER
+    << TowerFall.DrawCredits::.ctor
+MONOGAME
+    << TowerFall.DrawCredits::.ctor
+MOONGLASS
+    << TowerFall.Editor.ActorData::Init
+MOONSTONE
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+MOST KEYBOARDS WILL NOT WORK CORRECTLY
+    << TowerFall.KeyboardConfigMenu::Render
+MOUSE
+    << Monocle.MInput/MouseData::get_Name
+MOVE
+    << TowerFall.Editor.OverlayLevelManager::Added | TowerFall.IntroControls::.ctor | TowerFall.IntroControls::DrawGamepadControls | TowerFall.IntroControls::DrawKeyboardControls
+MOVING
+    << TowerFall.Editor.ActorData::Init
+MUD
+    << TowerFall.Editor.ActorData::Init
+MUSHROOM
+    << TowerFall.Editor.ActorData::Init
+MUSIC
+    << TowerFall.MainMenu::CreateOptions
+MUSICIAN
+    << TowerFall.DrawCredits::Render
+NATHAN VELLA
+    << TowerFall.DrawCredits::.ctor
+NAVIGATE
+    << TowerFall.PressStartText::Render
+NEW
+    << TowerFall.Editor.EditorScene::Begin
+NEXT TRIAL
+    << TowerFall.PauseMenu::.ctor
+NICK SUTTNER
+    << TowerFall.DrawCredits::.ctor
+NO
+    << TowerFall.WorkshopSubscribeOverlay::Render
+NO GAMEPAD
+    << TowerFall.InputTestScene::DrawGamepadData
+NO HAZARDS
+    << TowerFall.Editor.OverlayScene::InitModeVariants
+NOEL BERRY
+    << TowerFall.DrawCredits::.ctor
+NOFIRE
+    << TowerFall.CharacterSounds::.ctor
+NORMAL
+    << TowerFall.DarkWorldDifficultySelect::.ctor | TowerFall.QuestDifficultySelect::.ctor
+NORMAL MODE
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext | TowerFall.DarkWorldControl/<StartMatchSequence>d__18::MoveNext | TowerFall.QuestControl/<StartSequence>d__17::MoveNext
+NOT SUPPORTED
+    << TowerFall.CustomMapButton::Added
+OFF
+    << TowerFall.MainMenu/<>c__DisplayClass106_0::<CreateOptions>b__11 | TowerFall.MainMenu::BoolToString | TowerFall.OptionsButton::Render
+ON
+    << TowerFall.MainMenu::BoolToString | TowerFall.OptionsButton::Render
+ONLY SUPPORTS
+    << TowerFall.CustomMapButton::Added
+OPEN
+    << TowerFall.Editor.EditorScene::Begin
+OPEN A TOWER
+    << TowerFall.Editor.EditorScene::ToolbarOpen
+OPEN PORTAL
+    << TowerFall.PauseMenu::Render
+OPTIONS
+    << TowerFall.MainMenu::CreateMain
+ORB
+    << TowerFall.Editor.ActorData::Init
+OVERTIME
+    << TowerFall.VersusStart/<IntroSequence>d__15::MoveNext
+P
+    << TowerFall.PlayerIndicator::.ctor | TowerFall.TeamSelectOverlay::.ctor | TowerFall.TeamSelector::.ctor | TowerFall.VersusRoundResults/<Sequence>d__25::MoveNext
+P1
+    << TowerFall.VariantPerPlayer::.cctor
+P2
+    << TowerFall.VariantPerPlayer::.cctor
+P3
+    << TowerFall.VariantPerPlayer::.cctor
+P4
+    << TowerFall.VariantPerPlayer::.cctor
+PACKAGING
+    << TowerFall.Editor.Submitter::SetUpSubmission
+PAUL LACEN
+    << TowerFall.DrawCredits::.ctor
+PAUSED
+    << TowerFall.PauseMenu::.ctor
+PEDRO MEDEIROS
+    << TowerFall.DrawCredits::Render
+PIXEL ARTIST
+    << TowerFall.DrawCredits::Render
+PLACE GAMEPLAY ACTORS
+    << TowerFall.Editor.EditorTutorial::Render
+PLAY, CREATE, AND SHARE
+    << TowerFall.GoToWorkshopMapButton::Render
+PLAYERS
+    << TowerFall.VariantToggle::OnSelect
+PORTAL
+    << TowerFall.Editor.ActorData::Init
+PORTING
+    << TowerFall.DrawCredits::Render
+POWERUPS
+    << TowerFall.DarkWorldVariantsSelect::Render | TowerFall.Editor.OverlayScene::InitModeVariants
+PREPARING
+    << TowerFall.Editor.Submitter::Submit | TowerFall.WorkshopDiscovery::Load
+PRESETS
+    << TowerFall.Editor.OverlayTreasureDisplay::Render
+PRESS
+    << TowerFall.PressStartText::Render | TowerFall.TriggerArrowScreen::Render
+PRISM
+    << TowerFall.Arrow::.cctor
+PRIVATE
+    << TowerFall.Editor.SubmitVisibility::Render
+PROGRAMMER
+    << TowerFall.DrawCredits::Render
+PROXIMITY
+    << TowerFall.Editor.ActorData::Init
+PUBLIC
+    << TowerFall.Editor.SubmitVisibility::Render
+PUBLISH ERROR!
+    << TowerFall.Editor.SubmitProgress::Render
+PUBLISH!
+    << TowerFall.Editor.SubmitConfirm::Render
+PURPLE
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+QUEST
+    << TowerFall.ArchivesQuestPage::.ctor | TowerFall.QuestButton::.ctor
+QUICK MATCH
+    << TowerFall.VersusCoinButton::.cctor
+QUIT
+    << TowerFall.Editor.EditorScene::ToolbarQuit | TowerFall.MainMenu::CreateMain | TowerFall.PauseMenu::.ctor
+RAIN
+    << TowerFall.Editor.OverlayScene::InitModeBackground
+RAMI ISMAIL
+    << TowerFall.DrawCredits::.ctor
+RANDOM
+    << TowerFall.VersusRandomSelect::.ctor
+RANDOMIZE
+    << TowerFall.VariantRandomize::.ctor
+RATE
+    << TowerFall.ArchivesSessionPage::.ctor
+RATE THIS TOWER
+    << TowerFall.WorkshopRateOverlay::Render
+READY
+    << TowerFall.CharacterSounds::.ctor
+READY!
+    << TowerFall.WorkshopDiscovery::Load
+RECTANGLE
+    << TowerFall.Editor.EditorTutorial::Render
+RED SWITCH
+    << TowerFall.Editor.ActorData::Init
+REDO
+    << TowerFall.Editor.EditorScene::Begin
+REGISTERING
+    << TowerFall.Editor.Submitter::SetUpSubmission
+RELENTLESS GAZE OF THE ABYSS
+    << TowerFall.DarkWorldBossTitle::.ctor
+REMATCH!
+    << TowerFall.PauseMenu::.ctor
+RENATA FORTELEONI
+    << TowerFall.DrawCredits::Render
+REPLAY
+    << TowerFall.ReplayViewer::PostScreenRender | TowerFall.VersusRoundResults/<Sequence>d__25::MoveNext
+REPLAY SAVED TO
+    << TowerFall.GifExporter::Render
+REPLAYS SKIPPABLE
+    << TowerFall.MainMenu::CreateOptions
+REQUIRES
+    << TowerFall.CoOpDataDisplay::Render | TowerFall.CustomMapButton::Added | TowerFall.RollcallElement::Render | TowerFall.WorkshopDataDisplay::Render
+REQUIRES 3 OR 4 ARCHERS
+    << TowerFall.VersusModeButton::Render
+RESTART
+    << TowerFall.PauseMenu::.ctor
+RESTART LEVEL
+    << TowerFall.PauseMenu::.ctor
+RESTART LEVEL (
+    << TowerFall.PauseMenu::.ctor
+RESUME
+    << TowerFall.PauseMenu::.ctor
+RETURN TO EDITOR
+    << TowerFall.PauseMenu::Render
+REVIVE
+    << TowerFall.CharacterSounds::.ctor
+RIGHT
+    << TowerFall.KeyboardConfigMenu::Render
+ROUND 
+    << TowerFall.VersusStart/<IntroSequence>d__15::MoveNext
+ROUNDS
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.GameStats::get_RoundsPlayed | TowerFall.GameStats::set_RoundsPlayed
+RULRRDDUD
+    << TowerFall.ArchivesAscensionPage/<AttemptCodeSequence>d__49::MoveNext | TowerFall.ArchivesAscensionPage::StartFinished
+RYAN CLARK
+    << TowerFall.DrawCredits::.ctor
+SARA GROSS
+    << TowerFall.DrawCredits::.ctor
+SAVE
+    << TowerFall.Editor.EditorScene::Begin
+SAVE AND QUIT
+    << TowerFall.Editor.EditorScene::ToolbarQuit
+SAVE FIRST
+    << TowerFall.Editor.EditorScene::ToolbarNew | TowerFall.Editor.EditorScene::ToolbarOpen
+SAVE REPLAY
+    << TowerFall.VersusRoundResults/<Sequence>d__25::MoveNext
+SAVE TO ENABLE
+    << TowerFall.Editor.SaveGem::Render
+SAVE YOUR CHANGES?
+    << TowerFall.Editor.EditorScene::ToolbarNew | TowerFall.Editor.EditorScene::ToolbarOpen | TowerFall.Editor.EditorScene::ToolbarQuit
+SAVING FAILED!
+    << TowerFall.Saver::Render
+SCREEN FLASH EFFECTS
+    << TowerFall.MainMenu::CreateOptions
+SCREEN SCROLL EFFECTS
+    << TowerFall.MainMenu::CreateOptions
+SCREEN WAVE EFFECTS
+    << TowerFall.MainMenu::CreateOptions
+SEARCH FAILED
+    << TowerFall.WorkshopDiscovery::Load
+SEARCH TIMEOUT
+    << TowerFall.WorkshopDiscovery::Load
+SEARCHING
+    << TowerFall.WorkshopDiscovery::Load
+SELECT
+    << TowerFall.MainMenu::CreateVariants
+SELECT TEAMS
+    << TowerFall.TeamSelectOverlay::Render
+SELECT TOWER
+    << TowerFall.Editor.SubmitLoad::Render
+SELECT WORKSHOP FROM THE MAIN MENU
+    << TowerFall.WorkshopNoLevels::Render
+SELF
+    << TowerFall.ArchivesSessionPage::.ctor
+SENSOR
+    << TowerFall.Editor.ActorData::Init
+SESSION
+    << TowerFall.ArchivesSessionPage::.ctor
+SESSION STATS RESET WHEN YOU EXIT THE GAME
+    << TowerFall.ArchivesSessionPage::.ctor
+SFX
+    << Monocle.Audio::.cctor | TowerFall.ArcherData::.ctor
+SHAWN BOUCHARD
+    << TowerFall.DrawCredits::.ctor
+SHIFT
+    << TowerFall.Editor.EditorScene::Begin
+SHOOT
+    << TowerFall.IntroControls::.ctor | TowerFall.IntroControls::DrawGamepadControls | TowerFall.IntroControls::DrawKeyboardControls
+SHOOT + MENU CANCEL
+    << TowerFall.KeyboardConfigMenu::Render
+SHOW BUTTONS DURING REPLAYS
+    << TowerFall.MainMenu::CreateOptions
+SHOW VERSUS LESSONS
+    << TowerFall.MainMenu::CreateOptions
+SICKHEAD GAMES
+    << TowerFall.DrawCredits::Render
+SKIP
+    << TowerFall.ReplayViewer::PostScreenRender
+SLOW
+    << TowerFall.ReplayViewer::PostScreenRender
+SNOW
+    << TowerFall.Editor.ActorData::Init | TowerFall.Editor.OverlayScene::InitModeBackground
+SOLID TILES
+    << TowerFall.Editor.OverlayModeButton::.ctor | TowerFall.Editor.OverlayScene::SetMode
+SOLIDS LAYER
+    << TowerFall.Editor.LayerSelectButton::.ctor
+SOLVE CIPHER
+    << TowerFall.ArchivesAscensionPage::Render
+SOUND DESIGN
+    << TowerFall.DrawCredits::Render
+SOUNDS
+    << TowerFall.MainMenu::CreateOptions
+SPAWN BIG TREASURE
+    << TowerFall.PauseMenu::Render
+SPAWN TREASURE
+    << TowerFall.PauseMenu::Render
+SPIKEBALL
+    << TowerFall.Editor.ActorData::Init
+STANDARD LEVELS
+    << TowerFall.ExitWorkshopMapButton::.ctor
+STANDARD MATCH
+    << TowerFall.VersusCoinButton::.cctor
+START
+    << TowerFall.KeyboardConfigMenu::Render
+START A NEW TOWER
+    << TowerFall.Editor.EditorScene::ToolbarNew
+START WITH BOLT ARROWS
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+START WITH FEATHER ARROWS
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+START WITH SUPER BOMB ARROWS
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+STATS
+    << TowerFall.ArchivesStatsPage::.ctor
+STEAM STATS!
+    << TowerFall.ArchivesGlobalStatsPage::.ctor | TowerFall.ArchivesStatsPage::.ctor
+STORE PRESET 
+    << TowerFall.VariantPreset::GetTitle
+SUBMIT
+    << TowerFall.SubmitToWorkshopButton::.ctor
+SUBMIT YOUR TOWERS TO STEAM WORKSHOP
+    << TowerFall.WorkshopDataDisplay::Render
+SUBSCRIBE TO THIS TOWER?
+    << TowerFall.WorkshopSubscribeOverlay::Render
+SUNKEN CITY
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+SUPER BOMB
+    << TowerFall.Arrow::.cctor
+SYMMETRICAL COPY
+    << TowerFall.Editor.EditorTutorial::Render
+SYMMETRICAL TREASURE
+    << TowerFall.PauseMenu::Render
+SYMMETRY
+    << TowerFall.Editor.EditorScene::Begin
+TAKES PLACE IN THE DARK WORLD
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+TEAM ARCHER
+    << TowerFall.Editor.ActorData::Init
+TEAM DEATHMATCH
+    << TowerFall.CustomMapButton::Added | TowerFall.Editor.OverlayRecommendedModeButton::Render | TowerFall.VersusModeButton::GetModeName | TowerFall.VersusStart/<SessionIntroSequence>d__14::MoveNext
+TEAM DEATHMATCH MODE
+    << TowerFall.CustomMapButton::Added
+TEAM TOURNAMENT RULES
+    << TowerFall.VariantTournament2v2::.ctor
+THANK YOU
+    << TowerFall.DrawCredits::Render
+THE AMARANTH
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+THE BLIND LICH
+    << TowerFall.DarkWorldBossTitle::.ctor
+THIERRY
+    << TowerFall.DrawCredits::Render
+THIS GAME AUTO-SAVES!
+    << TowerFall.SavingInfoScene::Render
+THOMAS FAUST
+    << TowerFall.DrawCredits::Render
+THOMAS HOURDEL
+    << TowerFall.DrawCredits::.ctor
+TIM GRAUPMANN
+    << TowerFall.DrawCredits::.ctor
+TIME
+    << TowerFall.DarkWorldComplete/<Sequence>d__7::MoveNext
+TO CANCEL
+    << TowerFall.GifExporter::Render
+TO CREATE CUSTOM VERSUS TOWERS!
+    << TowerFall.WorkshopNoLevels::Render
+TO DETONATE TRIGGER ARROWS
+    << TowerFall.TriggerArrowScreen::Render
+TORCH
+    << TowerFall.Editor.ActorData::Init
+TORMENTOR OF THE FORSAKEN
+    << TowerFall.DarkWorldBossTitle::.ctor
+TOURNAMENT RULES
+    << TowerFall.Editor.OverlayTournamentRules::Render | TowerFall.VariantTournament1v1::.ctor
+TOWER PUBLISHED!
+    << TowerFall.Editor.SubmitProgress::Render
+TOWER UPDATED!
+    << TowerFall.Editor.SubmitProgress::Render
+TOWERFALL ASCENSION
+    << TowerFall.DrawCredits::Render
+TOWERFALL TEAM
+    << TowerFall.Editor.Tower::FromVersusTower
+TOWERFORGE
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection | TowerFall.UnlockData::HandleVariantsAndAchievements
+TOY
+    << TowerFall.Arrow::.cctor
+TRAILERS
+    << TowerFall.DrawCredits::Render
+TREASURE
+    << TowerFall.Editor.ActorData::Init
+TREASURE DRAFT
+    << TowerFall.VersusTreasureDraft/<Sequence>d__15::MoveNext
+TRIAL DEVTIMES
+    << TowerFall.DrawCredits::Render
+TRIALS
+    << TowerFall.ArchivesTrialsPage::.ctor | TowerFall.TrialsButton::.ctor
+TRIGGER
+    << TowerFall.Arrow::.cctor
+TRY AGAIN
+    << TowerFall.Saver::Render
+TWILIGHT SPIRE
+    << TowerFall.MapRenderer::OnSelectionChange | TowerFall.MapRenderer::OnStartSelection
+TYRANT QUEEN OF THE FOREST
+    << TowerFall.DarkWorldBossTitle::.ctor
+UNDO
+    << TowerFall.Editor.EditorScene::Begin
+UNDO STACK====
+    << TowerFall.Editor.AgentStack::LogStacks
+UNPACKING
+    << TowerFall.WorkshopDiscovery::Load
+UNTITLED TOWER
+    << TowerFall.Editor.Tower::.ctor
+UP
+    << TowerFall.KeyboardConfigMenu::Render
+UPLOADING
+    << TowerFall.Editor.Submitter::SubmitTower
+USE CPU
+    << TowerFall.MainMenu/<>c__DisplayClass106_0::<CreateOptions>b__11
+USE GPU
+    << TowerFall.MainMenu/<>c__DisplayClass106_0::<CreateOptions>b__11
+USE THIS TOWER'S GAME MODE?
+    << TowerFall.WorkshopModeOverlay::Render
+USES A DARK WORLD BACKGROUND
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+USES A DARK WORLD BG TILESET
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+USES A DARK WORLD MUSIC TRACK
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+USES A DARK WORLD SOLID TILESET
+    << TowerFall.Editor.Tower::GetDarkWorldReasons
+V
+    << TowerFall.MainMenu::Render | TowerFall.MoonGlassBlock::AddShine
+VARIANTS
+    << TowerFall.DarkWorldVariantsSelect::.ctor | TowerFall.VersusVariantsButton::Render
+VERSUS
+    << TowerFall.FightButton::.ctor
+VERTICAL SYNC
+    << TowerFall.MainMenu::CreateOptions
+VERTICAL SYNC CHANGES WILL NOT BE
+    << TowerFall.VsyncAlert::Render
+WARLORD
+    << TowerFall.VersusModeButton::GetModeName
+WARNING!
+    << TowerFall.KeyboardConfigMenu::Render
+WATER
+    << TowerFall.Editor.OverlayScene::InitModeBackground
+WATER DROP
+    << TowerFall.Editor.ActorData::Init
+WAV FILE - MAX SIZE 
+    << TowerFall.Editor.OverlayCustomMusicButton::.ctor
+WAVE
+    << TowerFall.Editor.OverlayScene::InitModeBackground
+WAVE 
+    << TowerFall.QuestGameOver/<Sequence>d__6::MoveNext
+WHEN YOU SEE THIS ICON,
+    << TowerFall.SavingInfoScene::Render
+WHITE
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+WILL KIRKBY
+    << TowerFall.DrawCredits::.ctor
+WIND
+    << TowerFall.Editor.OverlayScene::InitModeBackground
+WINS
+    << TowerFall.ArchivesSessionPage::.ctor
+WINS BY ARCHER
+    << TowerFall.ArchivesStatsPage::.ctor
+WITH MORE THAN ONE PLAYER!
+    << TowerFall.KeyboardConfigMenu::Render
+WORDS OF MAGIC
+    << TowerFall.DrawCredits::Render
+WORKSHOP
+    << TowerFall.WorkshopButton::.ctor
+WORKSHOP LEVELS
+    << TowerFall.GoToWorkshopMapButton::.ctor
+WRETCHED SEER
+    << TowerFall.DarkWorldBossTitle::.ctor
+X
+    << Monocle.SpriteData::GetImage | Monocle.SpriteData::GetMotionBlurSpriteInt | Monocle.SpriteData::GetSpriteInt | Monocle.SpriteData::GetSpritePartInt
+XINPUT
+    << TowerFall.XGamepadInput::.ctor
+XINPUT 
+    << TowerFall.XGamepadInput::.ctor
+Y
+    << Monocle.SpriteData::GetImage | Monocle.SpriteData::GetMotionBlurSpriteInt | Monocle.SpriteData::GetSpriteInt | Monocle.SpriteData::GetSpritePartInt
+YELLOW
+    << TowerFall.UnlockData::HandleVariantsAndAchievements
+YES
+    << TowerFall.WorkshopSubscribeOverlay::Render
+YOU WILL LOSE ALL CO-OP, TRIALS,
+    << TowerFall.ClearAllData::Render
+~LOADING ERROR~
+
+    << TowerFall.TFGame::Log
